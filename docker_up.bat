@@ -8,7 +8,11 @@ echo Docker start %date% %time% > "%LOG%"
 docker info >nul 2>&1
 if errorlevel 1 (
     echo Starting Docker Desktop ... (first start can take 1-2 minutes)
-    start "" "%ProgramFiles%\Docker\Docker\Docker Desktop.exe"
+    if exist "%LOCALAPPDATA%\Programs\DockerDesktop\Docker Desktop.exe" (
+        start "" "%LOCALAPPDATA%\Programs\DockerDesktop\Docker Desktop.exe"
+    ) else (
+        start "" "%ProgramFiles%\Docker\Docker\Docker Desktop.exe"
+    )
     for /l %%i in (1,1,60) do (
         timeout /t 5 /nobreak >nul
         docker info >nul 2>&1 && goto :ready
