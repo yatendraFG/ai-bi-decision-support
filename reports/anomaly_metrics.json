@@ -1,0 +1,39 @@
+{
+  "test_setup": "orders from 2026-07-01 + 1% injected anomalies",
+  "results": {
+    "autoencoder": {
+      "roc_auc": 0.962,
+      "pr_auc": 0.841,
+      "precision_in_flagged": 0.783,
+      "recall_in_flagged": 0.797
+    },
+    "isolation_forest": {
+      "roc_auc": 0.909,
+      "pr_auc": 0.371,
+      "precision_in_flagged": 0.433,
+      "recall_in_flagged": 0.441
+    }
+  },
+  "caught_by_type": {
+    "ae_flag": {
+      "consumer_bulk_furniture": 1.0,
+      "huge_discount": 1.0,
+      "price_x10": 0.36,
+      "qty_x20": 0.77
+    },
+    "iso_flag": {
+      "consumer_bulk_furniture": 1.0,
+      "huge_discount": 0.0,
+      "price_x10": 0.0,
+      "qty_x20": 0.69
+    }
+  },
+  "flagged_real_orders": 694,
+  "flagged_reasons": {
+    "qty_vs_own_history": 414,
+    "price_vs_category": 105,
+    "cat_Furniture": 97,
+    "qty_vs_segment": 53,
+    "cat_Clothing": 24
+  }
+}

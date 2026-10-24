@@ -1,0 +1,222 @@
+{
+  "split": {
+    "train_until": "2025-07-01",
+    "valid_until": "2026-01-01",
+    "test_from": "2026-01-01"
+  },
+  "validation_comparison": {
+    "sentiment": {
+      "keyword": {
+        "accuracy": 0.704,
+        "macro_f1": 0.686
+      },
+      "tfidf_lr": {
+        "accuracy": 0.803,
+        "macro_f1": 0.795
+      },
+      "tfidf_lr_priority": {
+        "accuracy": 0.865,
+        "macro_f1": 0.851
+      },
+      "keras_bigru": {
+        "accuracy": 0.793,
+        "macro_f1": 0.791
+      }
+    },
+    "category": {
+      "keyword": {
+        "accuracy": 0.812,
+        "macro_f1": 0.813
+      },
+      "tfidf_lr": {
+        "accuracy": 0.949,
+        "macro_f1": 0.949
+      },
+      "tfidf_lr_priority": {
+        "accuracy": 0.952,
+        "macro_f1": 0.952
+      },
+      "keras_bigru": {
+        "accuracy": 0.944,
+        "macro_f1": 0.946
+      }
+    }
+  },
+  "selected": {
+    "sentiment": "tfidf_lr_priority",
+    "category": "tfidf_lr"
+  },
+  "review_thresholds": {
+    "sentiment": 0.65,
+    "category": 0.3
+  },
+  "test": {
+    "sentiment": {
+      "model": "tfidf_lr_priority",
+      "accuracy": 0.848,
+      "macro_f1": 0.822,
+      "f1_by_class": {
+        "negative": 0.933,
+        "neutral": 0.839,
+        "positive": 0.694
+      },
+      "macro_f1_english": 0.81,
+      "macro_f1_hinglish": 0.871,
+      "human_in_the_loop": {
+        "threshold": 0.65,
+        "auto_handled_share": 0.794,
+        "accuracy_auto_handled": 0.944,
+        "accuracy_sent_to_review": 0.478
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            961,
+            102,
+            25
+          ],
+          [
+            7,
+            1001,
+            141
+          ],
+          [
+            3,
+            135,
+            344
+          ]
+        ]
+      }
+    },
+    "category": {
+      "model": "tfidf_lr",
+      "accuracy": 0.942,
+      "macro_f1": 0.941,
+      "f1_by_class": {
+        "Billing": 0.933,
+        "Delivery": 0.953,
+        "Product Quality": 0.935,
+        "Refund": 0.945,
+        "Technical": 0.942
+      },
+      "macro_f1_english": 0.94,
+      "macro_f1_hinglish": 0.949,
+      "human_in_the_loop": {
+        "threshold": 0.3,
+        "auto_handled_share": 0.988,
+        "accuracy_auto_handled": 0.951,
+        "accuracy_sent_to_review": 0.25
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Billing",
+          "Delivery",
+          "Product Quality",
+          "Refund",
+          "Technical"
+        ],
+        "matrix": [
+          [
+            467,
+            7,
+            10,
+            8,
+            3
+          ],
+          [
+            17,
+            773,
+            13,
+            7,
+            7
+          ],
+          [
+            9,
+            14,
+            553,
+            3,
+            11
+          ],
+          [
+            4,
+            2,
+            5,
+            302,
+            4
+          ],
+          [
+            9,
+            10,
+            12,
+            2,
+            467
+          ]
+        ]
+      }
+    }
+  },
+  "needs_review_share": 0.215,
+  "sentiment_error_examples": [
+    {
+      "text": "Hey, The website keeps showing an error 500. Waiting for reply.",
+      "priority": "Medium",
+      "sentiment": "positive",
+      "pred_sentiment": "neutral",
+      "sentiment_confidence": 0.749
+    },
+    {
+      "text": "hi support, the invoice amount is wrong, it shows rs 29671. thank you.",
+      "priority": "Medium",
+      "sentiment": "neutral",
+      "pred_sentiment": "positive",
+      "sentiment_confidence": 0.511
+    },
+    {
+      "text": "Hi, My card was debited but the order failed. Pls check asap.",
+      "priority": "Medium",
+      "sentiment": "positive",
+      "pred_sentiment": "neutral",
+      "sentiment_confidence": 0.584
+    },
+    {
+      "text": "what material is the printer made of. thanks.",
+      "priority": "Medium",
+      "sentiment": "neutral",
+      "pred_sentiment": "positive",
+      "sentiment_confidence": 0.719
+    },
+    {
+      "text": "Hi there, The refund went to the wrong account. Also i was charged an extra amount. Waiting for reply.",
+      "priority": "Low",
+      "sentiment": "positive",
+      "pred_sentiment": "neutral",
+      "sentiment_confidence": 0.73
+    },
+    {
+      "text": "Hi support, What material is the printer made of. Please help.",
+      "priority": "Medium",
+      "sentiment": "negative",
+      "pred_sentiment": "positive",
+      "sentiment_confidence": 0.797
+    },
+    {
+      "text": "Namaste, The invoice amount is wrong, it shows Rs 5737. Thanks.",
+      "priority": "Low",
+      "sentiment": "neutral",
+      "pred_sentiment": "positive",
+      "sentiment_confidence": 0.521
+    },
+    {
+      "text": "Hi, The invoice amount is wrong, it shows Rs 17926. Waiting for reply.",
+      "priority": "Low",
+      "sentiment": "positive",
+      "pred_sentiment": "neutral",
+      "sentiment_confidence": 0.436
+    }
+  ]
+}

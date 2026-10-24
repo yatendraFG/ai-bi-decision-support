@@ -1,0 +1,73 @@
+{
+  "k": 5,
+  "silhouette": {
+    "3": 0.258,
+    "4": 0.257,
+    "5": 0.267,
+    "6": 0.262
+  },
+  "segments": [
+    {
+      "segment_name": "Champions",
+      "customers": 491,
+      "avg_recency_days": 13.8,
+      "avg_orders_365d": 18.0,
+      "avg_revenue_365d": 593816.6,
+      "avg_order_value": 33401.9,
+      "total_revenue_365d": 291563931.7,
+      "top_customer_type": "SMB",
+      "revenue_share_pct": 47.8
+    },
+    {
+      "segment_name": "Big-ticket buyers",
+      "customers": 285,
+      "avg_recency_days": 48.8,
+      "avg_orders_365d": 9.3,
+      "avg_revenue_365d": 692776.7,
+      "avg_order_value": 76161.1,
+      "total_revenue_365d": 197441367.6,
+      "top_customer_type": "Corporate",
+      "revenue_share_pct": 32.4
+    },
+    {
+      "segment_name": "Occasional buyers",
+      "customers": 692,
+      "avg_recency_days": 52.9,
+      "avg_orders_365d": 9.0,
+      "avg_revenue_365d": 108926.6,
+      "avg_order_value": 12803.2,
+      "total_revenue_365d": 75377211.4,
+      "top_customer_type": "Consumer",
+      "revenue_share_pct": 12.4
+    },
+    {
+      "segment_name": "Loyal regulars",
+      "customers": 415,
+      "avg_recency_days": 7.8,
+      "avg_orders_365d": 10.4,
+      "avg_revenue_365d": 96326.8,
+      "avg_order_value": 9719.6,
+      "total_revenue_365d": 39975603.8,
+      "top_customer_type": "Consumer",
+      "revenue_share_pct": 6.6
+    },
+    {
+      "segment_name": "Slipping away",
+      "customers": 237,
+      "avg_recency_days": 93.5,
+      "avg_orders_365d": 3.3,
+      "avg_revenue_365d": 21007.1,
+      "avg_order_value": 8468.0,
+      "total_revenue_365d": 4978693.9,
+      "top_customer_type": "Consumer",
+      "revenue_share_pct": 0.8
+    }
+  ],
+  "actions": {
+    "Champions": "Reward & upsell: loyalty perks, early access, premium plan offers",
+    "Big-ticket buyers": "Account management: dedicated contact, bulk pricing, quarterly reviews",
+    "Loyal regulars": "Cross-sell new categories, referral programme",
+    "Occasional buyers": "Nudge frequency: personalised offers, reminders around festive season",
+    "Slipping away": "Win-back campaign now: discount + support follow-up on open complaints"
+  }
+}

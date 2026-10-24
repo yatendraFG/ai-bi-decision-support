@@ -1,0 +1,21 @@
+# environments / editor
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# local logs and caches
+*.log
+run_log.txt
+setup_log.txt
+reports/lstm_folds*/
+reports/agent/*.md
+!reports/agent/.gitkeep
+
+# NOTE: data/raw, data/processed and models ARE committed on purpose.
+# The data is fictional (Kaveri Retail) and the deployed apps need the trained
+# models + outputs. With REAL company data: add these lines and keep the repo private:
+# data/raw/
+# data/processed/
+# models/

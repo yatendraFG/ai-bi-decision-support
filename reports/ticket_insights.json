@@ -1,0 +1,169 @@
+{
+  "as_of": "2026-09-29",
+  "category_trend": [
+    {
+      "category": "Product Quality",
+      "tickets_last_3m": 186,
+      "tickets_per_month_last_3m": 62.0,
+      "tickets_per_month_prev_9m": 65.6,
+      "negative_share_last_3m": 0.392,
+      "negative_share_prev_9m": 0.363,
+      "change_pp": 3.0,
+      "status": "stable"
+    },
+    {
+      "category": "Refund",
+      "tickets_last_3m": 95,
+      "tickets_per_month_last_3m": 31.7,
+      "tickets_per_month_prev_9m": 35.6,
+      "negative_share_last_3m": 0.358,
+      "negative_share_prev_9m": 0.344,
+      "change_pp": 1.4,
+      "status": "stable"
+    },
+    {
+      "category": "Delivery",
+      "tickets_last_3m": 254,
+      "tickets_per_month_last_3m": 84.7,
+      "tickets_per_month_prev_9m": 85.9,
+      "negative_share_last_3m": 0.299,
+      "negative_share_prev_9m": 0.373,
+      "change_pp": -7.3,
+      "status": "improving"
+    },
+    {
+      "category": "Billing",
+      "tickets_last_3m": 140,
+      "tickets_per_month_last_3m": 46.7,
+      "tickets_per_month_prev_9m": 56.7,
+      "negative_share_last_3m": 0.3,
+      "negative_share_prev_9m": 0.392,
+      "change_pp": -9.2,
+      "status": "improving"
+    },
+    {
+      "category": "Technical",
+      "tickets_last_3m": 156,
+      "tickets_per_month_last_3m": 52.0,
+      "tickets_per_month_prev_9m": 54.9,
+      "negative_share_last_3m": 0.237,
+      "negative_share_prev_9m": 0.354,
+      "change_pp": -11.7,
+      "status": "improving"
+    }
+  ],
+  "complaint_themes": {
+    "Billing": [
+      {
+        "phrase": "debited but the order",
+        "tickets": 14
+      },
+      {
+        "phrase": "card was debited",
+        "tickets": 13
+      },
+      {
+        "phrase": "coupon code gave",
+        "tickets": 13
+      },
+      {
+        "phrase": "gave an error during",
+        "tickets": 12
+      },
+      {
+        "phrase": "amount is wrong",
+        "tickets": 12
+      }
+    ],
+    "Delivery": [
+      {
+        "phrase": "courier did not show",
+        "tickets": 21
+      },
+      {
+        "phrase": "up on the promised",
+        "tickets": 21
+      },
+      {
+        "phrase": "address for order",
+        "tickets": 19
+      },
+      {
+        "phrase": "delivery status shows",
+        "tickets": 19
+      },
+      {
+        "phrase": "need to change",
+        "tickets": 19
+      }
+    ],
+    "Product Quality": [
+      {
+        "phrase": "working within a week",
+        "tickets": 14
+      },
+      {
+        "phrase": "came off after one",
+        "tickets": 13
+      },
+      {
+        "phrase": "delivery was fine though",
+        "tickets": 13
+      },
+      {
+        "phrase": "has scratches out",
+        "tickets": 13
+      },
+      {
+        "phrase": "makes a strange noise",
+        "tickets": 12
+      }
+    ],
+    "Refund": [
+      {
+        "phrase": "refund is pending",
+        "tickets": 12
+      },
+      {
+        "phrase": "been days and still",
+        "tickets": 8
+      },
+      {
+        "phrase": "timeline for returned items",
+        "tickets": 8
+      },
+      {
+        "phrase": "not been received",
+        "tickets": 8
+      },
+      {
+        "phrase": "still no refund",
+        "tickets": 8
+      }
+    ],
+    "Technical": [
+      {
+        "phrase": "how do i reset",
+        "tickets": 17
+      },
+      {
+        "phrase": "reset my password",
+        "tickets": 16
+      },
+      {
+        "phrase": "coming on my phone",
+        "tickets": 10
+      },
+      {
+        "phrase": "otp is not coming",
+        "tickets": 10
+      },
+      {
+        "phrase": "cannot download my order",
+        "tickets": 9
+      }
+    ]
+  },
+  "urgent_customers": 87,
+  "urgent_revenue_at_risk_inr": 2924914.0
+}

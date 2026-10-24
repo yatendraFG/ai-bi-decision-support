@@ -1,0 +1,695 @@
+order_id,order_date,customer_id,region,category,quantity,unit_price,discount,revenue,segment,anomaly_score,main_reason
+O0057092,2026-03-22,C01679,East,Electronics,1,8503.16,0.2,6802.53,Corporate,4.473,qty_vs_own_history
+O0019725,2024-06-30,C02317,South,Furniture,2,2873.69,0.0,5747.38,Corporate,1.915,qty_vs_own_history
+O0047434,2025-11-03,C01471,South,Office Supplies,1,4597.41,0.2,3677.93,Consumer,1.711,price_vs_category
+O0006861,2023-08-29,C00588,South,Office Supplies,2,115.97,0.1,208.75,Corporate,1.669,qty_vs_own_history
+O0000461,2023-01-19,C01209,North,Office Supplies,1,4226.81,0.0,4226.81,Consumer,1.484,price_vs_category
+O0003395,2023-05-04,C01671,South,Electronics,3,6768.1,0.2,16243.44,Corporate,1.466,qty_vs_own_history
+O0000301,2023-01-13,C00676,South,Office Supplies,1,4134.78,0.15,3514.56,Consumer,1.463,price_vs_category
+O0034245,2025-03-29,C02725,West,Office Supplies,1,3647.52,0.0,3647.52,Consumer,1.457,price_vs_category
+O0044704,2025-09-30,C01261,North,Clothing,3,1386.88,0.1,3744.58,Corporate,1.452,qty_vs_own_history
+O0032136,2025-02-18,C02739,South,Furniture,1,23075.62,0.05,21921.84,SMB,1.451,qty_vs_own_history
+O0045609,2025-10-13,C01768,South,Office Supplies,1,3475.22,0.0,3475.22,Consumer,1.405,price_vs_category
+O0002449,2023-04-03,C00733,South,Furniture,1,22071.28,0.2,17657.02,SMB,1.403,qty_vs_own_history
+O0011299,2023-12-11,C01941,East,Office Supplies,1,3981.79,0.1,3583.61,Consumer,1.358,price_vs_category
+O0039158,2025-06-28,C02189,North,Furniture,1,26398.89,0.0,26398.89,SMB,1.357,qty_vs_own_history
+O0021089,2024-08-01,C00342,East,Clothing,11,8067.97,0.15,75435.52,Corporate,1.341,price_vs_category
+O0019570,2024-06-26,C02640,West,Office Supplies,1,3593.86,0.0,3593.86,Consumer,1.312,price_vs_category
+O0048006,2025-11-09,C01894,East,Furniture,1,25535.05,0.2,20428.04,Consumer,1.31,cat_Furniture
+O0053563,2026-01-27,C02660,West,Furniture,1,27964.45,0.2,22371.56,Consumer,1.309,cat_Furniture
+O0066711,2026-08-19,C01757,North,Office Supplies,3,4566.48,0.0,13699.44,Consumer,1.301,price_vs_category
+O0007333,2023-09-11,C02013,North,Furniture,1,2603.81,0.15,2213.24,SMB,1.294,qty_vs_own_history
+O0066353,2026-08-14,C00949,East,Furniture,1,8362.54,0.15,7108.16,SMB,1.293,qty_vs_own_history
+O0015776,2024-03-30,C01056,North,Office Supplies,1,2741.22,0.2,2192.98,Consumer,1.291,price_vs_category
+O0045247,2025-10-08,C01286,North,Electronics,3,11160.48,0.0,33481.44,Corporate,1.29,qty_vs_own_history
+O0040863,2025-07-28,C01652,South,Office Supplies,1,3500.77,0.0,3500.77,Consumer,1.285,price_vs_category
+O0045296,2025-10-09,C00699,South,Furniture,1,4279.27,0.2,3423.42,SMB,1.275,qty_vs_own_history
+O0056509,2026-03-14,C01085,East,Furniture,1,22971.29,0.0,22971.29,SMB,1.274,qty_vs_own_history
+O0001514,2023-02-27,C02238,North,Office Supplies,2,4354.73,0.0,8709.46,Consumer,1.269,price_vs_category
+O0027265,2024-11-21,C01312,North,Furniture,1,33726.46,0.15,28667.49,Consumer,1.262,cat_Furniture
+O0024263,2024-10-05,C00840,North,Electronics,3,7545.71,0.0,22637.13,Corporate,1.255,qty_vs_own_history
+O0002825,2023-04-15,C02399,North,Electronics,3,13149.89,0.15,33532.22,Corporate,1.252,qty_vs_own_history
+O0056218,2026-03-09,C02724,South,Furniture,1,5255.94,0.2,4204.75,SMB,1.248,qty_vs_own_history
+O0050134,2025-12-07,C01299,South,Clothing,4,2444.93,0.05,9290.73,Corporate,1.242,cat_Clothing
+O0055820,2026-03-03,C02134,West,Furniture,1,6288.71,0.2,5030.97,SMB,1.239,qty_vs_own_history
+O0035731,2025-04-25,C01903,West,Clothing,5,3497.92,0.05,16615.12,Corporate,1.238,cat_Clothing
+O0054324,2026-02-08,C01903,West,Office Supplies,3,1012.17,0.15,2581.03,Corporate,1.238,qty_vs_own_history
+O0064431,2026-07-15,C02345,North,Furniture,1,11674.39,0.2,9339.51,SMB,1.237,qty_vs_own_history
+O0017327,2024-05-05,C02740,South,Furniture,1,2901.1,0.2,2320.88,SMB,1.236,qty_vs_own_history
+O0056147,2026-03-08,C02222,North,Furniture,1,15090.71,0.2,12072.57,SMB,1.236,qty_vs_own_history
+O0008363,2023-10-09,C02809,South,Furniture,3,5653.41,0.2,13568.18,Corporate,1.232,qty_vs_segment
+O0003366,2023-05-03,C02882,West,Clothing,4,1162.01,0.2,3718.43,Corporate,1.227,cat_Clothing
+O0062124,2026-06-07,C02486,South,Furniture,1,14626.62,0.2,11701.3,SMB,1.225,qty_vs_own_history
+O0048885,2025-11-19,C02689,North,Office Supplies,1,2869.91,0.2,2295.93,Consumer,1.223,price_vs_category
+O0015818,2024-03-31,C02209,South,Office Supplies,11,91.12,0.15,851.97,SMB,1.222,price_vs_category
+O0025228,2024-10-22,C00429,West,Office Supplies,1,2876.8,0.0,2876.8,Consumer,1.213,price_vs_category
+O0029266,2024-12-26,C02849,West,Furniture,1,19608.52,0.15,16667.24,SMB,1.21,qty_vs_own_history
+O0042157,2025-08-20,C01254,South,Furniture,1,20091.95,0.0,20091.95,SMB,1.207,qty_vs_own_history
+O0001211,2023-02-16,C01644,South,Furniture,1,13769.17,0.2,11015.34,SMB,1.205,qty_vs_own_history
+O0063762,2026-07-04,C02194,North,Clothing,6,3677.25,0.2,17650.8,Corporate,1.198,cat_Clothing
+O0019045,2024-06-14,C01570,North,Furniture,4,18834.47,0.2,60270.3,Corporate,1.194,qty_vs_own_history
+O0052440,2026-01-10,C00203,West,Office Supplies,2,3377.34,0.0,6754.68,Consumer,1.188,price_vs_category
+O0022353,2024-08-28,C00702,East,Furniture,1,12972.99,0.2,10378.39,SMB,1.187,qty_vs_own_history
+O0050192,2025-12-08,C00839,North,Electronics,4,41804.7,0.1,150496.92,Corporate,1.185,qty_vs_own_history
+O0045793,2025-10-15,C02224,East,Furniture,3,9407.26,0.0,28221.78,Corporate,1.184,qty_vs_own_history
+O0029790,2025-01-05,C01787,East,Furniture,1,12823.26,0.2,10258.61,SMB,1.183,qty_vs_own_history
+O0036699,2025-05-14,C00341,North,Furniture,1,2413.83,0.15,2051.76,SMB,1.18,qty_vs_own_history
+O0064255,2026-07-13,C00484,East,Furniture,1,3447.78,0.2,2758.22,SMB,1.18,qty_vs_own_history
+O0041878,2025-08-15,C00534,North,Furniture,2,30277.06,0.2,48443.3,Consumer,1.18,cat_Furniture
+O0069375,2026-09-28,C02596,North,Furniture,1,3728.65,0.1,3355.79,SMB,1.178,qty_vs_own_history
+O0011397,2023-12-13,C02033,North,Office Supplies,1,2774.55,0.0,2774.55,Consumer,1.178,price_vs_category
+O0023879,2024-09-28,C01036,West,Furniture,1,12469.36,0.2,9975.49,SMB,1.176,qty_vs_own_history
+O0063979,2026-07-08,C01353,South,Furniture,3,4457.27,0.1,12034.63,Corporate,1.175,qty_vs_own_history
+O0000573,2023-01-23,C02780,South,Electronics,3,2267.99,0.0,6803.97,Consumer,1.172,price_vs_category
+O0011715,2023-12-20,C02307,South,Furniture,1,18351.05,0.0,18351.05,SMB,1.166,qty_vs_own_history
+O0066744,2026-08-19,C02792,North,Furniture,1,11841.92,0.2,9473.54,SMB,1.163,qty_vs_own_history
+O0003491,2023-05-07,C00989,South,Office Supplies,1,3086.68,0.0,3086.68,Consumer,1.161,price_vs_category
+O0047427,2025-11-03,C01144,North,Furniture,1,21404.21,0.2,17123.37,Consumer,1.16,cat_Furniture
+O0031239,2025-02-02,C00931,East,Office Supplies,1,3050.23,0.0,3050.23,Consumer,1.15,price_vs_category
+O0060423,2026-05-11,C01719,North,Furniture,1,11217.15,0.2,8973.72,SMB,1.15,qty_vs_own_history
+O0064388,2026-07-15,C00412,West,Furniture,1,11083.51,0.2,8866.81,SMB,1.147,qty_vs_own_history
+O0025581,2024-10-27,C00129,East,Office Supplies,1,3029.67,0.15,2575.22,Consumer,1.145,price_vs_category
+O0014463,2024-02-27,C02119,South,Furniture,1,24114.66,0.0,24114.66,Consumer,1.145,cat_Furniture
+O0014478,2024-02-28,C00285,South,Furniture,8,1577.46,0.15,10726.73,SMB,1.144,price_vs_category
+O0006191,2023-08-09,C02069,North,Electronics,2,2279.99,0.2,3647.98,Consumer,1.144,price_vs_category
+O0006469,2023-08-17,C02179,West,Furniture,1,18224.02,0.2,14579.22,Consumer,1.142,cat_Furniture
+O0053332,2026-01-23,C01992,South,Electronics,15,121007.35,0.0,1815110.25,Corporate,1.138,price_vs_category
+O0003489,2023-05-07,C00731,East,Furniture,1,10471.99,0.2,8377.59,SMB,1.136,qty_vs_own_history
+O0003522,2023-05-08,C01445,East,Office Supplies,5,2890.92,0.0,14454.6,Consumer,1.134,price_vs_category
+O0044699,2025-09-30,C00871,West,Furniture,1,17034.45,0.0,17034.45,SMB,1.134,qty_vs_own_history
+O0029435,2024-12-30,C00630,West,Furniture,1,4533.42,0.15,3853.41,SMB,1.134,qty_vs_own_history
+O0018332,2024-05-29,C01653,West,Office Supplies,1,2308.26,0.2,1846.61,Consumer,1.133,price_vs_category
+O0062888,2026-06-20,C02058,North,Office Supplies,1,2988.15,0.0,2988.15,Consumer,1.131,price_vs_category
+O0003667,2023-05-12,C02059,East,Furniture,1,10208.75,0.2,8167.0,SMB,1.131,qty_vs_own_history
+O0036955,2025-05-18,C01297,South,Furniture,1,9580.77,0.0,9580.77,SMB,1.127,qty_vs_own_history
+O0045785,2025-10-15,C01751,North,Furniture,1,13862.67,0.2,11090.14,SMB,1.126,qty_vs_segment
+O0028603,2024-12-14,C02434,North,Furniture,1,16635.97,0.0,16635.97,SMB,1.125,qty_vs_own_history
+O0043521,2025-09-11,C02662,North,Furniture,1,17576.06,0.2,14060.85,Consumer,1.123,cat_Furniture
+O0037272,2025-05-24,C01021,West,Furniture,3,9370.87,0.05,26706.98,Corporate,1.122,qty_vs_own_history
+O0057693,2026-03-31,C02373,North,Office Supplies,1,2565.37,0.2,2052.3,Consumer,1.122,price_vs_category
+O0056153,2026-03-08,C02931,West,Furniture,1,2362.51,0.05,2244.38,SMB,1.122,qty_vs_own_history
+O0014320,2024-02-23,C02050,East,Furniture,1,9678.06,0.2,7742.45,SMB,1.122,qty_vs_own_history
+O0059635,2026-04-28,C02636,West,Office Supplies,1,2795.09,0.0,2795.09,Consumer,1.12,price_vs_category
+O0067386,2026-08-29,C02485,North,Furniture,6,6962.17,0.2,33418.42,SMB,1.119,qty_vs_own_history
+O0011501,2023-12-15,C02465,North,Furniture,1,9319.86,0.2,7455.89,SMB,1.116,qty_vs_own_history
+O0018690,2024-06-06,C00268,North,Furniture,1,9264.77,0.2,7411.82,SMB,1.115,qty_vs_own_history
+O0014530,2024-02-29,C00392,North,Furniture,1,4649.02,0.2,3719.22,SMB,1.115,qty_vs_own_history
+O0008843,2023-10-20,C00845,South,Furniture,1,9216.85,0.2,7373.48,SMB,1.114,qty_vs_own_history
+O0057052,2026-03-21,C02676,North,Furniture,1,9128.6,0.2,7302.88,SMB,1.113,qty_vs_own_history
+O0052023,2026-01-03,C00825,North,Office Supplies,1,2773.11,0.05,2634.45,Consumer,1.113,price_vs_category
+O0049510,2025-11-28,C01495,South,Furniture,3,5837.38,0.1,15760.93,Corporate,1.113,qty_vs_own_history
+O0056891,2026-03-19,C02682,North,Furniture,1,8491.09,0.0,8491.09,SMB,1.111,qty_vs_own_history
+O0047000,2025-10-29,C01832,West,Furniture,1,8977.51,0.2,7182.01,SMB,1.111,qty_vs_own_history
+O0031833,2025-02-13,C00257,West,Furniture,1,5170.15,0.0,5170.15,SMB,1.11,qty_vs_own_history
+O0011869,2023-12-23,C02571,West,Furniture,1,8937.75,0.2,7150.2,SMB,1.11,qty_vs_own_history
+O0001937,2023-03-14,C02082,East,Furniture,1,5151.2,0.0,5151.2,SMB,1.11,qty_vs_own_history
+O0008063,2023-10-02,C02082,East,Furniture,1,5157.67,0.0,5157.67,SMB,1.11,qty_vs_own_history
+O0059481,2026-04-26,C02892,South,Furniture,1,4825.47,0.2,3860.38,SMB,1.11,qty_vs_own_history
+O0024177,2024-10-03,C01902,East,Furniture,1,8893.35,0.2,7114.68,SMB,1.109,qty_vs_own_history
+O0023523,2024-09-21,C01710,West,Furniture,1,4859.04,0.2,3887.23,SMB,1.109,qty_vs_own_history
+O0036247,2025-05-05,C01022,East,Furniture,3,8186.33,0.05,23331.04,Corporate,1.109,qty_vs_own_history
+O0035965,2025-04-30,C00483,East,Furniture,1,8770.17,0.2,7016.14,SMB,1.108,qty_vs_own_history
+O0069273,2026-09-27,C01841,West,Furniture,1,8808.04,0.2,7046.43,SMB,1.108,qty_vs_own_history
+O0018425,2024-05-31,C00346,West,Furniture,1,8771.27,0.2,7017.02,SMB,1.108,qty_vs_own_history
+O0046349,2025-10-22,C01472,East,Furniture,1,8825.61,0.2,7060.49,SMB,1.108,qty_vs_own_history
+O0044281,2025-09-23,C01395,East,Furniture,1,4940.29,0.2,3952.23,SMB,1.107,qty_vs_own_history
+O0009622,2023-11-03,C02876,South,Furniture,1,26956.92,0.0,26956.92,Consumer,1.106,cat_Furniture
+O0045633,2025-10-13,C02773,North,Furniture,1,15805.04,0.0,15805.04,SMB,1.106,qty_vs_own_history
+O0068782,2026-09-19,C01667,South,Furniture,1,5380.32,0.0,5380.32,SMB,1.106,qty_vs_own_history
+O0064180,2026-07-12,C00012,East,Furniture,1,15189.05,0.15,12910.69,SMB,1.105,qty_vs_own_history
+O0060529,2026-05-13,C00876,South,Office Supplies,1,2908.56,0.0,2908.56,Consumer,1.105,price_vs_category
+O0040219,2025-07-17,C01484,North,Furniture,1,15739.11,0.0,15739.11,SMB,1.104,qty_vs_own_history
+O0046015,2025-10-18,C01775,North,Furniture,1,8473.72,0.2,6778.98,SMB,1.104,qty_vs_own_history
+O0040295,2025-07-18,C02840,West,Furniture,1,15713.26,0.0,15713.26,SMB,1.103,qty_vs_own_history
+O0034847,2025-04-09,C02773,North,Furniture,1,2933.64,0.15,2493.59,SMB,1.102,qty_vs_own_history
+O0068171,2026-09-10,C00971,South,Furniture,1,7609.64,0.0,7609.64,SMB,1.102,qty_vs_own_history
+O0031862,2025-02-13,C01793,South,Electronics,5,3113.28,0.15,13231.44,Consumer,1.1,price_vs_category
+O0047745,2025-11-06,C01781,West,Furniture,1,8124.12,0.2,6499.3,SMB,1.1,qty_vs_own_history
+O0014358,2024-02-24,C01297,South,Furniture,1,6009.13,0.0,6009.13,SMB,1.1,qty_vs_own_history
+O0054109,2026-02-05,C01164,North,Furniture,1,14947.72,0.15,12705.56,SMB,1.099,qty_vs_own_history
+O0059401,2026-04-25,C01300,North,Furniture,1,5398.09,0.2,4318.47,SMB,1.098,qty_vs_own_history
+O0039273,2025-06-30,C02552,North,Furniture,1,5413.2,0.2,4330.56,SMB,1.098,qty_vs_own_history
+O0060000,2026-05-04,C02490,West,Furniture,1,6707.04,0.0,6707.04,SMB,1.098,qty_vs_own_history
+O0060964,2026-05-20,C01332,West,Clothing,12,5983.44,0.15,61031.09,Corporate,1.098,price_vs_category
+O0046819,2025-10-27,C01795,North,Furniture,1,5367.36,0.2,4293.89,SMB,1.098,qty_vs_own_history
+O0023630,2024-09-23,C01990,West,Furniture,1,6602.04,0.0,6602.04,SMB,1.098,qty_vs_own_history
+O0005984,2023-08-02,C02110,South,Furniture,1,3836.97,0.05,3645.12,SMB,1.097,qty_vs_own_history
+O0015914,2024-04-02,C02486,South,Furniture,1,17941.06,0.05,17044.01,SMB,1.097,qty_vs_own_history
+O0015784,2024-03-30,C01775,North,Furniture,1,5565.51,0.2,4452.41,SMB,1.096,qty_vs_own_history
+O0014137,2024-02-19,C01860,North,Furniture,1,7789.12,0.2,6231.3,SMB,1.096,qty_vs_own_history
+O0004147,2023-05-29,C02605,West,Furniture,1,5611.39,0.2,4489.11,SMB,1.095,qty_vs_own_history
+O0004391,2023-06-07,C01016,West,Office Supplies,3,920.16,0.05,2622.46,Corporate,1.094,qty_vs_own_history
+O0016799,2024-04-24,C01338,North,Furniture,1,26464.5,0.0,26464.5,Consumer,1.094,cat_Furniture
+O0065271,2026-07-29,C00733,South,Furniture,1,7545.4,0.2,6036.32,SMB,1.094,qty_vs_own_history
+O0000237,2023-01-10,C02774,South,Furniture,1,5885.04,0.2,4708.03,SMB,1.093,qty_vs_own_history
+O0031940,2025-02-15,C00460,North,Furniture,1,7420.17,0.2,5936.14,SMB,1.093,qty_vs_own_history
+O0006477,2023-08-17,C02597,North,Furniture,1,7334.22,0.2,5867.38,SMB,1.093,qty_vs_own_history
+O0004347,2023-06-05,C02748,North,Furniture,1,7310.19,0.2,5848.15,SMB,1.093,qty_vs_own_history
+O0028190,2024-12-06,C02773,North,Furniture,1,7227.39,0.2,5781.91,SMB,1.092,qty_vs_own_history
+O0003400,2023-05-04,C02332,South,Furniture,1,6961.06,0.2,5568.85,SMB,1.091,qty_vs_own_history
+O0022312,2024-08-27,C01279,South,Furniture,1,6959.65,0.2,5567.72,SMB,1.091,qty_vs_own_history
+O0063875,2026-07-06,C02579,West,Furniture,1,6242.62,0.2,4994.1,SMB,1.091,qty_vs_own_history
+O0049387,2025-11-26,C02465,North,Furniture,1,6717.67,0.2,5374.14,SMB,1.09,qty_vs_own_history
+O0050709,2025-12-15,C02544,West,Electronics,4,30183.73,0.15,102624.68,Corporate,1.09,qty_vs_own_history
+O0053857,2026-02-01,C01807,West,Furniture,1,6495.53,0.2,5196.42,SMB,1.09,qty_vs_own_history
+O0014661,2024-03-03,C01418,South,Furniture,1,17651.77,0.05,16769.18,SMB,1.09,qty_vs_own_history
+O0061202,2026-05-24,C01303,West,Furniture,1,6458.91,0.2,5167.13,SMB,1.09,qty_vs_own_history
+O0022612,2024-09-02,C01575,North,Furniture,1,26877.48,0.1,24189.73,Consumer,1.09,cat_Furniture
+O0032895,2025-03-05,C01368,East,Furniture,1,4010.13,0.1,3609.12,SMB,1.09,qty_vs_own_history
+O0025659,2024-10-28,C00821,East,Furniture,1,14513.34,0.15,12336.34,SMB,1.089,qty_vs_own_history
+O0052671,2026-01-13,C02064,North,Furniture,1,3010.72,0.0,3010.72,SMB,1.085,qty_vs_own_history
+O0023153,2024-09-13,C02009,East,Furniture,1,11335.01,0.0,11335.01,SMB,1.084,qty_vs_own_history
+O0041537,2025-08-09,C01076,North,Office Supplies,1,3032.71,0.1,2729.44,Consumer,1.082,price_vs_category
+O0015466,2024-03-22,C02294,South,Office Supplies,1,2828.09,0.15,2403.88,Consumer,1.081,price_vs_category
+O0064298,2026-07-13,C02343,West,Furniture,1,21763.38,0.0,21763.38,SMB,1.077,qty_vs_segment
+O0059103,2026-04-21,C01073,South,Office Supplies,1,3016.16,0.1,2714.54,Consumer,1.077,price_vs_category
+O0046665,2025-10-25,C02054,South,Furniture,1,14521.76,0.0,14521.76,SMB,1.076,qty_vs_own_history
+O0055588,2026-02-27,C01667,South,Furniture,1,4273.26,0.05,4059.6,SMB,1.075,qty_vs_own_history
+O0010783,2023-11-28,C02570,South,Furniture,1,13908.79,0.15,11822.47,SMB,1.075,qty_vs_own_history
+O0025534,2024-10-26,C00700,South,Electronics,4,2928.42,0.2,9370.94,Consumer,1.074,price_vs_category
+O0016851,2024-04-25,C01603,South,Furniture,1,20368.15,0.2,16294.52,Consumer,1.071,cat_Furniture
+O0000454,2023-01-19,C00806,East,Furniture,1,3142.53,0.0,3142.53,SMB,1.07,qty_vs_own_history
+O0058396,2026-04-10,C02931,West,Furniture,1,13664.21,0.15,11614.58,SMB,1.07,qty_vs_own_history
+O0015393,2024-03-21,C00242,North,Furniture,1,25466.54,0.0,25466.54,Consumer,1.07,cat_Furniture
+O0026143,2024-11-04,C00925,East,Office Supplies,1,2142.17,0.2,1713.74,Consumer,1.068,price_vs_category
+O0023018,2024-09-10,C02486,South,Furniture,1,16698.22,0.05,15863.31,SMB,1.067,qty_vs_own_history
+O0035612,2025-04-23,C01664,South,Clothing,12,5654.3,0.15,57673.86,Corporate,1.066,price_vs_category
+O0063900,2026-07-07,C00378,North,Furniture,1,10130.77,0.0,10130.77,SMB,1.062,qty_vs_own_history
+O0043518,2025-09-11,C02279,North,Clothing,4,1444.48,0.0,5777.92,Corporate,1.061,cat_Clothing
+O0024616,2024-10-11,C02318,South,Furniture,1,13813.85,0.0,13813.85,SMB,1.06,qty_vs_own_history
+O0013499,2024-02-03,C02184,North,Furniture,1,27631.76,0.1,24868.58,Consumer,1.059,cat_Furniture
+O0016048,2024-04-05,C02493,North,Furniture,1,15364.35,0.2,12291.48,Consumer,1.059,cat_Furniture
+O0008562,2023-10-13,C02264,West,Electronics,4,23909.79,0.0,95639.16,Corporate,1.058,qty_vs_own_history
+O0002501,2023-04-05,C00127,East,Office Supplies,1,2445.35,0.15,2078.55,Consumer,1.058,price_vs_category
+O0022134,2024-08-23,C00734,West,Furniture,1,13703.16,0.0,13703.16,SMB,1.057,qty_vs_own_history
+O0062376,2026-06-11,C02459,West,Furniture,1,13671.94,0.0,13671.94,SMB,1.056,qty_vs_own_history
+O0020858,2024-07-26,C01418,South,Furniture,12,6063.6,0.2,58210.56,SMB,1.054,qty_vs_own_history
+O0003352,2023-05-03,C01920,North,Furniture,1,19788.22,0.0,19788.22,Consumer,1.054,cat_Furniture
+O0045721,2025-10-14,C02612,North,Furniture,1,16123.3,0.05,15317.13,SMB,1.054,qty_vs_own_history
+O0004058,2023-05-26,C01608,East,Office Supplies,1,2746.11,0.0,2746.11,Consumer,1.052,price_vs_category
+O0023708,2024-09-24,C02963,West,Furniture,1,16402.73,0.15,13942.32,SMB,1.052,qty_vs_segment
+O0011156,2023-12-07,C02672,South,Electronics,2,2195.17,0.15,3731.79,Consumer,1.049,price_vs_category
+O0029483,2024-12-30,C02634,North,Furniture,1,13266.16,0.0,13266.16,SMB,1.047,qty_vs_own_history
+O0055798,2026-03-03,C01113,North,Furniture,1,12650.49,0.15,10752.92,SMB,1.047,qty_vs_own_history
+O0051857,2025-12-31,C02669,West,Office Supplies,2,2915.66,0.2,4665.06,Consumer,1.047,price_vs_category
+O0049764,2025-12-02,C00553,North,Furniture,1,15847.35,0.05,15054.98,SMB,1.047,qty_vs_own_history
+O0032724,2025-03-02,C01426,West,Office Supplies,6,2949.76,0.2,14158.85,Consumer,1.047,price_vs_category
+O0025117,2024-10-20,C01230,West,Electronics,4,31986.86,0.1,115152.7,Corporate,1.046,qty_vs_own_history
+O0066544,2026-08-17,C01360,West,Furniture,1,7546.37,0.1,6791.73,SMB,1.045,qty_vs_own_history
+O0041582,2025-08-10,C01781,West,Furniture,1,15507.27,0.1,13956.54,SMB,1.044,qty_vs_own_history
+O0014063,2024-02-17,C01297,South,Furniture,1,7368.43,0.1,6631.59,SMB,1.043,qty_vs_own_history
+O0019059,2024-06-14,C02318,South,Furniture,1,13075.01,0.0,13075.01,SMB,1.043,qty_vs_own_history
+O0038982,2025-06-25,C02054,South,Furniture,1,15672.2,0.05,14888.59,SMB,1.043,qty_vs_own_history
+O0028463,2024-12-12,C00872,North,Office Supplies,3,4038.82,0.1,10904.81,Consumer,1.043,price_vs_category
+O0062301,2026-06-10,C02110,South,Furniture,1,7799.47,0.05,7409.5,SMB,1.043,qty_vs_own_history
+O0030696,2025-01-22,C02686,North,Electronics,4,2954.19,0.0,11816.76,Consumer,1.043,price_vs_category
+O0027537,2024-11-25,C02086,East,Furniture,1,15595.27,0.05,14815.51,SMB,1.041,qty_vs_own_history
+O0030972,2025-01-28,C00686,South,Furniture,1,22066.94,0.1,19860.25,Consumer,1.041,cat_Furniture
+O0015142,2024-03-14,C02332,South,Furniture,1,3442.51,0.0,3442.51,SMB,1.041,qty_vs_own_history
+O0039453,2025-07-03,C01923,North,Furniture,1,12348.31,0.15,10496.06,SMB,1.04,qty_vs_own_history
+O0035322,2025-04-18,C01471,South,Furniture,1,24251.8,0.0,24251.8,Consumer,1.04,cat_Furniture
+O0069315,2026-09-28,C00558,South,Office Supplies,1,2399.23,0.15,2039.35,Consumer,1.04,price_vs_category
+O0002654,2023-04-10,C00718,South,Furniture,1,9536.19,0.2,7628.95,SMB,1.04,qty_vs_segment
+O0009487,2023-11-01,C01303,West,Furniture,12,4316.0,0.0,51792.0,SMB,1.039,qty_vs_own_history
+O0017057,2024-04-29,C02307,South,Furniture,1,12238.66,0.15,10402.86,SMB,1.038,qty_vs_own_history
+O0028025,2024-12-04,C01086,West,Furniture,1,12810.17,0.0,12810.17,SMB,1.037,qty_vs_own_history
+O0043178,2025-09-06,C00517,South,Furniture,1,2899.03,0.05,2754.08,SMB,1.037,qty_vs_own_history
+O0060515,2026-05-13,C00193,South,Furniture,1,14586.19,0.2,11668.95,Consumer,1.036,cat_Furniture
+O0008705,2023-10-17,C00292,North,Clothing,6,3517.71,0.0,21106.26,Corporate,1.035,cat_Clothing
+O0052907,2026-01-17,C00521,West,Clothing,5,544.89,0.2,2179.56,Corporate,1.035,cat_Clothing
+O0053616,2026-01-28,C01818,South,Furniture,1,2937.39,0.1,2643.65,SMB,1.034,qty_vs_own_history
+O0029839,2025-01-06,C01834,North,Furniture,1,15296.23,0.05,14531.42,SMB,1.034,qty_vs_own_history
+O0032031,2025-02-17,C00714,North,Furniture,1,9056.73,0.2,7245.38,SMB,1.033,qty_vs_segment
+O0010925,2023-12-02,C00089,South,Furniture,1,18803.28,0.0,18803.28,Consumer,1.033,cat_Furniture
+O0062963,2026-06-22,C00581,South,Furniture,1,18731.0,0.05,17794.45,SMB,1.033,qty_vs_segment
+O0016746,2024-04-22,C02957,West,Furniture,1,15213.25,0.05,14452.59,SMB,1.032,qty_vs_own_history
+O0023219,2024-09-15,C00788,South,Furniture,1,11906.54,0.15,10120.56,SMB,1.031,qty_vs_own_history
+O0055163,2026-02-21,C00553,North,Furniture,1,15129.16,0.05,14372.7,SMB,1.03,qty_vs_own_history
+O0016260,2024-04-11,C00733,South,Furniture,1,15061.83,0.05,14308.74,SMB,1.029,qty_vs_own_history
+O0060338,2026-05-10,C00638,South,Furniture,1,12431.37,0.0,12431.37,SMB,1.029,qty_vs_own_history
+O0004796,2023-06-22,C01915,North,Office Supplies,7,2902.03,0.1,18282.79,Corporate,1.029,price_vs_category
+O0012024,2023-12-27,C00589,South,Furniture,1,12417.01,0.0,12417.01,SMB,1.029,qty_vs_own_history
+O0041398,2025-08-07,C00066,South,Furniture,1,12364.39,0.0,12364.39,SMB,1.028,qty_vs_own_history
+O0065427,2026-07-31,C01559,West,Furniture,1,15995.67,0.0,15995.67,SMB,1.028,qty_vs_segment
+O0003065,2023-04-23,C02189,North,Furniture,1,11727.3,0.15,9968.2,SMB,1.027,qty_vs_own_history
+O0002797,2023-04-14,C02009,East,Furniture,1,7350.69,0.0,7350.69,SMB,1.027,qty_vs_own_history
+O0045555,2025-10-13,C00026,South,Furniture,1,12331.57,0.0,12331.57,SMB,1.027,qty_vs_own_history
+O0035903,2025-04-28,C02404,South,Furniture,1,12224.18,0.0,12224.18,SMB,1.025,qty_vs_own_history
+O0001713,2023-03-07,C00555,North,Office Supplies,1,2031.54,0.2,1625.23,Consumer,1.024,price_vs_category
+O0047716,2025-11-06,C00923,East,Office Supplies,1,2284.7,0.2,1827.76,Consumer,1.023,price_vs_category
+O0044078,2025-09-19,C02773,North,Furniture,1,12139.9,0.0,12139.9,SMB,1.023,qty_vs_own_history
+O0030772,2025-01-24,C00150,North,Furniture,1,3660.02,0.0,3660.02,SMB,1.023,qty_vs_own_history
+O0015815,2024-03-31,C02045,South,Clothing,19,643.54,0.2,9781.81,Corporate,1.023,cat_Clothing
+O0043574,2025-09-12,C01896,South,Furniture,1,5317.54,0.2,4254.03,SMB,1.022,qty_vs_segment
+O0017422,2024-05-08,C00511,North,Furniture,1,12873.52,0.2,10298.82,SMB,1.022,qty_vs_segment
+O0036873,2025-05-16,C02910,East,Electronics,2,2018.8,0.0,4037.6,Consumer,1.021,price_vs_category
+O0051286,2025-12-23,C02837,North,Furniture,1,3817.47,0.15,3244.85,SMB,1.021,qty_vs_own_history
+O0005304,2023-07-10,C02422,South,Furniture,1,11429.33,0.15,9714.93,SMB,1.021,qty_vs_own_history
+O0058269,2026-04-09,C01096,North,Office Supplies,1,2651.48,0.0,2651.48,Consumer,1.021,price_vs_category
+O0026784,2024-11-13,C01502,West,Furniture,1,7949.97,0.2,6359.98,SMB,1.019,qty_vs_segment
+O0000005,2023-01-01,C00511,North,Furniture,1,12738.36,0.2,10190.69,SMB,1.019,qty_vs_segment
+O0005501,2023-07-17,C01915,North,Clothing,5,576.48,0.2,2305.92,Corporate,1.018,cat_Clothing
+O0050034,2025-12-05,C02308,West,Furniture,1,11876.5,0.0,11876.5,SMB,1.018,qty_vs_own_history
+O0019958,2024-07-05,C02465,North,Furniture,1,11907.95,0.0,11907.95,SMB,1.018,qty_vs_own_history
+O0032096,2025-02-18,C00346,West,Furniture,1,11920.79,0.0,11920.79,SMB,1.018,qty_vs_own_history
+O0025993,2024-11-01,C01926,South,Furniture,1,18158.21,0.0,18158.21,Consumer,1.018,cat_Furniture
+O0043038,2025-09-04,C00230,West,Furniture,1,18243.53,0.2,14594.82,Consumer,1.017,cat_Furniture
+O0058280,2026-04-09,C01559,West,Furniture,1,5820.06,0.2,4656.05,SMB,1.016,qty_vs_segment
+O0042860,2025-09-01,C01085,East,Furniture,1,11790.06,0.0,11790.06,SMB,1.016,qty_vs_own_history
+O0000361,2023-01-15,C02362,North,Office Supplies,11,51.71,0.0,568.81,Corporate,1.015,price_vs_category
+O0041984,2025-08-17,C00186,North,Furniture,11,5182.84,0.0,57011.24,SMB,1.014,qty_vs_own_history
+O0025364,2024-10-24,C00463,North,Furniture,1,6249.06,0.2,4999.25,SMB,1.013,qty_vs_segment
+O0008965,2023-10-22,C02502,South,Furniture,1,11584.68,0.0,11584.68,SMB,1.012,qty_vs_own_history
+O0037129,2025-05-21,C02680,South,Furniture,1,11623.88,0.0,11623.88,SMB,1.012,qty_vs_own_history
+O0028232,2024-12-07,C02327,East,Furniture,1,6662.57,0.2,5330.06,SMB,1.012,qty_vs_segment
+O0024935,2024-10-17,C02018,South,Furniture,1,11535.95,0.0,11535.95,SMB,1.011,qty_vs_own_history
+O0032899,2025-03-05,C01622,East,Furniture,1,18890.63,0.0,18890.63,SMB,1.011,qty_vs_segment
+O0018153,2024-05-24,C02751,North,Furniture,1,11493.27,0.0,11493.27,SMB,1.01,qty_vs_own_history
+O0038854,2025-06-23,C01457,East,Furniture,1,11508.97,0.0,11508.97,SMB,1.01,qty_vs_own_history
+O0038212,2025-06-10,C02648,North,Furniture,3,2324.59,0.2,5579.02,Consumer,1.01,price_vs_category
+O0044286,2025-09-23,C01511,North,Furniture,1,11487.36,0.0,11487.36,SMB,1.01,qty_vs_own_history
+O0052209,2026-01-06,C02064,North,Furniture,1,14189.91,0.05,13480.41,SMB,1.009,qty_vs_own_history
+O0014436,2024-02-26,C02861,North,Office Supplies,1,2607.37,0.15,2216.26,Consumer,1.008,price_vs_category
+O0003511,2023-05-08,C00171,West,Electronics,4,4174.22,0.05,15862.04,Corporate,1.008,qty_vs_own_history
+O0021403,2024-08-07,C02424,East,Office Supplies,3,793.65,0.0,2380.95,Corporate,1.008,qty_vs_segment
+O0016450,2024-04-16,C00940,North,Furniture,1,1725.92,0.0,1725.92,Consumer,1.008,cat_Furniture
+O0042804,2025-08-31,C00218,North,Furniture,1,13919.03,0.1,12527.13,SMB,1.007,qty_vs_own_history
+O0003623,2023-05-11,C00936,North,Furniture,1,10707.14,0.15,9101.07,SMB,1.007,qty_vs_own_history
+O0002896,2023-04-18,C00517,South,Furniture,1,11355.37,0.0,11355.37,SMB,1.007,qty_vs_own_history
+O0017337,2024-05-06,C00100,North,Furniture,1,22940.73,0.0,22940.73,Consumer,1.007,cat_Furniture
+O0063431,2026-06-29,C01899,West,Clothing,22,2541.72,0.2,44734.27,Corporate,1.007,cat_Clothing
+O0013451,2024-02-02,C00517,South,Furniture,1,10615.1,0.15,9022.84,SMB,1.006,qty_vs_own_history
+O0048249,2025-11-12,C00544,South,Office Supplies,2,2939.34,0.0,5878.68,Consumer,1.004,price_vs_category
+O0038464,2025-06-16,C00518,West,Furniture,1,11202.02,0.0,11202.02,SMB,1.004,qty_vs_own_history
+O0057095,2026-03-22,C01718,South,Furniture,1,10445.93,0.15,8879.04,SMB,1.003,qty_vs_own_history
+O0016443,2024-04-16,C00663,South,Furniture,1,17693.45,0.2,14154.76,Consumer,1.002,cat_Furniture
+O0003172,2023-04-27,C00631,South,Furniture,1,4008.27,0.0,4008.27,SMB,1.002,qty_vs_own_history
+O0051745,2025-12-30,C00817,West,Furniture,1,11098.98,0.0,11098.98,SMB,1.002,qty_vs_own_history
+O0024900,2024-10-17,C00571,North,Furniture,1,13887.4,0.05,13193.03,SMB,1.002,qty_vs_own_history
+O0045039,2025-10-05,C00954,South,Furniture,1,4023.93,0.0,4023.93,SMB,1.001,qty_vs_own_history
+O0016160,2024-04-08,C02847,West,Furniture,1,13850.28,0.05,13157.77,SMB,1.001,qty_vs_own_history
+O0046511,2025-10-24,C00517,South,Furniture,1,4028.34,0.0,4028.34,SMB,1.001,qty_vs_own_history
+O0035750,2025-04-25,C02773,North,Furniture,1,4040.68,0.0,4040.68,SMB,1.001,qty_vs_own_history
+O0063850,2026-07-06,C00757,South,Furniture,1,11024.42,0.0,11024.42,SMB,1.001,qty_vs_own_history
+O0046912,2025-10-28,C01530,North,Furniture,1,17694.2,0.15,15040.07,Consumer,1.0,cat_Furniture
+O0006790,2023-08-26,C02630,South,Furniture,1,10956.49,0.0,10956.49,SMB,0.999,qty_vs_own_history
+O0047898,2025-11-08,C01189,North,Furniture,1,20164.79,0.05,19156.55,Consumer,0.999,cat_Furniture
+O0052761,2026-01-15,C00457,North,Furniture,1,13291.32,0.2,10633.06,Consumer,0.998,cat_Furniture
+O0030757,2025-01-23,C02398,West,Furniture,1,13702.27,0.05,13017.16,SMB,0.997,qty_vs_own_history
+O0050621,2025-12-14,C01684,East,Furniture,1,10776.61,0.0,10776.61,SMB,0.996,qty_vs_own_history
+O0039138,2025-06-28,C00262,South,Office Supplies,1,1963.8,0.2,1571.04,Consumer,0.996,price_vs_category
+O0039369,2025-07-02,C00937,West,Clothing,22,2334.88,0.2,41093.89,Corporate,0.996,cat_Clothing
+O0007933,2023-09-28,C02463,West,Furniture,1,10667.88,0.0,10667.88,SMB,0.994,qty_vs_own_history
+O0019129,2024-06-16,C01815,North,Office Supplies,1,2762.68,0.05,2624.55,Consumer,0.994,price_vs_category
+O0059067,2026-04-20,C02612,North,Furniture,1,9923.43,0.15,8434.92,SMB,0.993,qty_vs_own_history
+O0003735,2023-05-15,C00927,South,Office Supplies,1,2274.55,0.15,1933.37,Consumer,0.993,price_vs_category
+O0008532,2023-10-13,C00239,West,Furniture,1,10550.49,0.0,10550.49,SMB,0.992,qty_vs_own_history
+O0033467,2025-03-15,C01989,East,Furniture,1,4248.33,0.0,4248.33,SMB,0.991,qty_vs_own_history
+O0049255,2025-11-25,C00073,South,Furniture,1,17183.76,0.0,17183.76,Consumer,0.991,cat_Furniture
+O0015129,2024-03-14,C01173,East,Furniture,1,9796.47,0.15,8327.0,SMB,0.991,qty_vs_own_history
+O0013078,2024-01-23,C01994,West,Furniture,1,4433.05,0.15,3768.09,SMB,0.991,qty_vs_own_history
+O0042183,2025-08-20,C02347,South,Furniture,1,9789.51,0.15,8321.08,SMB,0.991,qty_vs_own_history
+O0046250,2025-10-21,C01495,South,Clothing,20,4514.25,0.0,90285.0,Corporate,0.99,cat_Clothing
+O0021385,2024-08-07,C01279,South,Furniture,1,10424.18,0.0,10424.18,SMB,0.99,qty_vs_own_history
+O0006452,2023-08-17,C00823,North,Furniture,1,12992.44,0.2,10393.95,Consumer,0.99,cat_Furniture
+O0059521,2026-04-27,C01514,North,Furniture,1,10449.17,0.0,10449.17,SMB,0.99,qty_vs_own_history
+O0019715,2024-06-30,C01442,North,Furniture,1,2595.38,0.0,2595.38,SMB,0.989,qty_vs_segment
+O0036139,2025-05-03,C00432,North,Office Supplies,1,2419.52,0.0,2419.52,Consumer,0.989,price_vs_category
+O0046592,2025-10-24,C02779,North,Furniture,1,17245.66,0.15,14658.81,SMB,0.988,qty_vs_segment
+O0034602,2025-04-04,C02391,West,Furniture,1,10332.95,0.0,10332.95,SMB,0.988,qty_vs_own_history
+O0003697,2023-05-13,C01627,North,Clothing,11,4008.3,0.2,35273.04,Corporate,0.988,cat_Clothing
+O0026849,2024-11-14,C01124,West,Furniture,1,10315.68,0.0,10315.68,SMB,0.988,qty_vs_own_history
+O0019446,2024-06-24,C01841,West,Furniture,1,9531.97,0.15,8102.17,SMB,0.987,qty_vs_own_history
+O0010250,2023-11-17,C00094,West,Furniture,1,4013.25,0.2,3210.6,SMB,0.987,qty_vs_segment
+O0000489,2023-01-20,C01611,East,Furniture,1,10239.39,0.0,10239.39,SMB,0.987,qty_vs_own_history
+O0033118,2025-03-09,C01975,South,Furniture,1,10199.88,0.0,10199.88,SMB,0.986,qty_vs_own_history
+O0068778,2026-09-19,C01250,South,Furniture,1,11096.56,0.2,8877.25,SMB,0.986,qty_vs_segment
+O0063988,2026-07-08,C01931,West,Office Supplies,1,1939.33,0.2,1551.46,Consumer,0.986,price_vs_category
+O0033800,2025-03-21,C02064,North,Furniture,1,10128.66,0.0,10128.66,SMB,0.985,qty_vs_own_history
+O0007379,2023-09-12,C02648,North,Furniture,1,17166.3,0.15,14591.36,Consumer,0.985,cat_Furniture
+O0055062,2026-02-19,C01852,South,Furniture,1,10125.06,0.0,10125.06,SMB,0.985,qty_vs_own_history
+O0013060,2024-01-23,C00277,North,Furniture,1,19502.93,0.1,17552.64,Consumer,0.985,cat_Furniture
+O0050340,2025-12-10,C00484,East,Furniture,1,10088.31,0.0,10088.31,SMB,0.984,qty_vs_own_history
+O0015027,2024-03-11,C02281,West,Furniture,1,24557.36,0.05,23329.49,Consumer,0.984,cat_Furniture
+O0027310,2024-11-22,C00100,North,Office Supplies,2,3193.6,0.0,6387.2,Consumer,0.984,price_vs_category
+O0066546,2026-08-17,C01364,North,Office Supplies,9,95.45,0.0,859.05,SMB,0.984,price_vs_category
+O0009003,2023-10-23,C02108,West,Furniture,1,10084.25,0.0,10084.25,SMB,0.984,qty_vs_own_history
+O0044422,2025-09-25,C01285,South,Office Supplies,3,553.42,0.2,1328.21,Corporate,0.984,qty_vs_segment
+O0009033,2023-10-24,C00636,South,Furniture,1,12804.03,0.2,10243.22,Consumer,0.984,cat_Furniture
+O0051535,2025-12-26,C02960,South,Furniture,1,4664.01,0.15,3964.41,SMB,0.983,qty_vs_own_history
+O0025750,2024-10-29,C01425,South,Furniture,1,10026.69,0.0,10026.69,SMB,0.983,qty_vs_own_history
+O0032471,2025-02-25,C01085,East,Furniture,1,10011.57,0.0,10011.57,SMB,0.983,qty_vs_own_history
+O0002858,2023-04-16,C02986,North,Furniture,1,12876.31,0.1,11588.68,SMB,0.983,qty_vs_own_history
+O0026104,2024-11-03,C01860,North,Furniture,1,9999.44,0.0,9999.44,SMB,0.982,qty_vs_own_history
+O0011697,2023-12-20,C00941,West,Furniture,1,9960.34,0.0,9960.34,SMB,0.982,qty_vs_own_history
+O0026908,2024-11-15,C00465,West,Furniture,1,24451.33,0.1,22006.2,Consumer,0.982,cat_Furniture
+O0063161,2026-06-25,C00350,West,Furniture,1,19972.99,0.1,17975.69,SMB,0.982,qty_vs_segment
+O0011259,2023-12-10,C01369,North,Electronics,4,14246.55,0.2,45588.96,Corporate,0.981,qty_vs_segment
+O0049619,2025-11-30,C00419,North,Furniture,1,4738.55,0.15,4027.77,SMB,0.981,qty_vs_own_history
+O0044525,2025-09-27,C01303,West,Furniture,1,12727.65,0.1,11454.88,SMB,0.98,qty_vs_own_history
+O0016737,2024-04-22,C02465,North,Furniture,1,4529.26,0.0,4529.26,SMB,0.98,qty_vs_own_history
+O0019706,2024-06-30,C00828,North,Furniture,1,9872.12,0.0,9872.12,SMB,0.98,qty_vs_own_history
+O0018917,2024-06-11,C02145,North,Furniture,1,9841.91,0.0,9841.91,SMB,0.98,qty_vs_own_history
+O0066769,2026-08-20,C00901,West,Furniture,1,21836.13,0.15,18560.71,Consumer,0.98,cat_Furniture
+O0018183,2024-05-26,C00362,West,Furniture,1,9085.48,0.15,7722.66,SMB,0.98,qty_vs_own_history
+O0022744,2024-09-05,C01415,South,Furniture,1,4541.83,0.0,4541.83,SMB,0.979,qty_vs_own_history
+O0002983,2023-04-20,C02408,North,Furniture,1,4797.95,0.15,4078.26,SMB,0.979,qty_vs_own_history
+O0018278,2024-05-28,C00906,North,Furniture,1,8938.01,0.15,7597.31,SMB,0.978,qty_vs_own_history
+O0063045,2026-06-23,C01362,West,Furniture,1,4560.96,0.0,4560.96,SMB,0.978,qty_vs_own_history
+O0024230,2024-10-04,C01908,South,Furniture,1,4564.5,0.0,4564.5,SMB,0.978,qty_vs_own_history
+O0045513,2025-10-12,C00999,East,Furniture,1,10569.44,0.2,8455.55,SMB,0.977,qty_vs_segment
+O0064523,2026-07-17,C00946,North,Furniture,1,4593.18,0.0,4593.18,SMB,0.977,qty_vs_own_history
+O0019587,2024-06-27,C00466,South,Furniture,1,3473.2,0.05,3299.54,SMB,0.977,qty_vs_own_history
+O0038271,2025-06-12,C00193,South,Furniture,1,16846.86,0.15,14319.83,Consumer,0.976,cat_Furniture
+O0012751,2024-01-15,C00310,East,Furniture,1,9604.44,0.0,9604.44,SMB,0.976,qty_vs_own_history
+O0066460,2026-08-16,C00103,South,Furniture,1,4648.95,0.0,4648.95,SMB,0.976,qty_vs_own_history
+O0064501,2026-07-16,C02811,South,Furniture,1,9538.81,0.0,9538.81,SMB,0.975,qty_vs_own_history
+O0046296,2025-10-21,C02967,North,Furniture,1,16642.39,0.0,16642.39,Consumer,0.975,cat_Furniture
+O0028491,2024-12-12,C01905,North,Electronics,4,13253.99,0.2,42412.77,Corporate,0.974,qty_vs_segment
+O0003915,2023-05-21,C00444,East,Furniture,1,9441.69,0.0,9441.69,SMB,0.974,qty_vs_own_history
+O0034463,2025-04-02,C01395,East,Furniture,1,12628.08,0.05,11996.68,SMB,0.974,qty_vs_own_history
+O0050623,2025-12-14,C01781,West,Furniture,1,12390.99,0.1,11151.89,SMB,0.973,qty_vs_own_history
+O0013561,2024-02-05,C01841,West,Furniture,1,9388.05,0.0,9388.05,SMB,0.973,qty_vs_own_history
+O0039102,2025-06-27,C01923,North,Furniture,1,8620.49,0.15,7327.42,SMB,0.973,qty_vs_own_history
+O0036468,2025-05-09,C00951,West,Furniture,1,16509.57,0.0,16509.57,Consumer,0.972,cat_Furniture
+O0046313,2025-10-22,C00356,North,Electronics,4,3199.84,0.0,12799.36,Consumer,0.972,price_vs_category
+O0044018,2025-09-19,C00483,East,Furniture,1,9353.58,0.0,9353.58,SMB,0.972,qty_vs_own_history
+O0030710,2025-01-23,C00146,North,Furniture,1,9280.34,0.0,9280.34,SMB,0.971,qty_vs_own_history
+O0025768,2024-10-29,C02145,North,Furniture,1,9300.44,0.0,9300.44,SMB,0.971,qty_vs_own_history
+O0011827,2023-12-22,C02498,South,Clothing,23,787.34,0.0,18108.82,Corporate,0.971,cat_Clothing
+O0062473,2026-06-13,C01511,North,Furniture,1,9279.39,0.0,9279.39,SMB,0.971,qty_vs_own_history
+O0014506,2024-02-28,C02087,North,Clothing,11,4990.94,0.0,54900.34,Corporate,0.97,price_vs_category
+O0010546,2023-11-23,C01041,West,Furniture,1,5281.14,0.15,4488.97,SMB,0.969,qty_vs_own_history
+O0053403,2026-01-25,C00859,East,Office Supplies,1,2498.16,0.0,2498.16,Consumer,0.969,price_vs_category
+O0046877,2025-10-28,C00757,South,Furniture,1,5255.0,0.15,4466.75,SMB,0.969,qty_vs_own_history
+O0064981,2026-07-24,C02143,North,Furniture,1,16398.04,0.2,13118.43,Consumer,0.969,cat_Furniture
+O0036893,2025-05-17,C00797,East,Furniture,1,9072.64,0.0,9072.64,SMB,0.968,qty_vs_own_history
+O0010660,2023-11-25,C02663,South,Electronics,4,11513.23,0.2,36842.34,Corporate,0.968,qty_vs_segment
+O0060578,2026-05-13,C02825,East,Furniture,1,8961.87,0.0,8961.87,SMB,0.967,qty_vs_own_history
+O0033242,2025-03-11,C02753,South,Furniture,1,9012.69,0.0,9012.69,SMB,0.967,qty_vs_own_history
+O0004265,2023-06-02,C02064,North,Furniture,1,8098.86,0.15,6884.03,SMB,0.967,qty_vs_own_history
+O0021001,2024-07-30,C01303,West,Furniture,1,8078.04,0.15,6866.33,SMB,0.967,qty_vs_own_history
+O0034121,2025-03-27,C01281,North,Furniture,1,5376.7,0.15,4570.2,SMB,0.967,qty_vs_own_history
+O0017300,2024-05-05,C00308,North,Furniture,1,3590.07,0.05,3410.57,SMB,0.967,qty_vs_own_history
+O0022479,2024-08-30,C01611,East,Furniture,1,8066.67,0.15,6856.67,SMB,0.967,qty_vs_own_history
+O0055011,2026-02-18,C02738,West,Furniture,1,16308.03,0.0,16308.03,Consumer,0.966,cat_Furniture
+O0016542,2024-04-18,C01164,North,Furniture,1,5454.28,0.15,4636.14,SMB,0.966,qty_vs_own_history
+O0009688,2023-11-05,C02222,North,Furniture,1,8008.81,0.15,6807.49,SMB,0.966,qty_vs_own_history
+O0005673,2023-07-24,C00795,East,Furniture,1,5448.14,0.15,4630.92,SMB,0.966,qty_vs_own_history
+O0039396,2025-07-02,C02191,West,Furniture,1,8920.48,0.0,8920.48,SMB,0.966,qty_vs_own_history
+O0053351,2026-01-23,C02753,South,Furniture,1,7996.28,0.15,6796.84,SMB,0.966,qty_vs_own_history
+O0062115,2026-06-07,C02005,West,Furniture,1,12240.93,0.05,11628.88,SMB,0.965,qty_vs_own_history
+O0011304,2023-12-11,C02257,East,Furniture,1,8883.09,0.0,8883.09,SMB,0.965,qty_vs_own_history
+O0044239,2025-09-22,C02441,North,Furniture,1,8882.06,0.0,8882.06,SMB,0.965,qty_vs_own_history
+O0046641,2025-10-25,C01287,South,Furniture,1,7916.79,0.15,6729.27,SMB,0.965,qty_vs_own_history
+O0052380,2026-01-09,C00277,North,Furniture,1,12144.13,0.2,9715.3,Consumer,0.965,cat_Furniture
+O0061905,2026-06-04,C00458,North,Furniture,1,5093.88,0.0,5093.88,SMB,0.964,qty_vs_own_history
+O0043176,2025-09-06,C00386,West,Furniture,1,9811.45,0.2,7849.16,SMB,0.964,qty_vs_segment
+O0011147,2023-12-07,C02145,North,Furniture,1,7737.71,0.15,6577.05,SMB,0.964,qty_vs_own_history
+O0055201,2026-02-21,C02784,East,Furniture,1,16237.25,0.0,16237.25,Consumer,0.964,cat_Furniture
+O0017500,2024-05-09,C01911,West,Office Supplies,3,446.85,0.2,1072.44,Corporate,0.964,qty_vs_own_history
+O0064021,2026-07-09,C00420,South,Furniture,1,8803.89,0.0,8803.89,SMB,0.964,qty_vs_own_history
+O0065307,2026-07-29,C02008,North,Furniture,1,8779.96,0.0,8779.96,SMB,0.964,qty_vs_own_history
+O0031331,2025-02-03,C02622,North,Furniture,1,8733.35,0.0,8733.35,SMB,0.964,qty_vs_own_history
+O0035233,2025-04-17,C00266,West,Furniture,1,7643.96,0.15,6497.37,SMB,0.963,qty_vs_own_history
+O0043373,2025-09-09,C01217,North,Furniture,1,19139.06,0.1,17225.15,SMB,0.963,qty_vs_segment
+O0017458,2024-05-08,C02579,West,Furniture,1,5688.82,0.15,4835.5,SMB,0.963,qty_vs_own_history
+O0061999,2026-06-05,C01975,South,Furniture,1,5100.14,0.0,5100.14,SMB,0.963,qty_vs_own_history
+O0015021,2024-03-11,C01915,North,Office Supplies,4,1292.46,0.1,4652.86,Corporate,0.963,price_vs_category
+O0038672,2025-06-19,C02497,North,Furniture,1,16371.88,0.15,13916.1,Consumer,0.963,cat_Furniture
+O0041478,2025-08-08,C01072,West,Electronics,1,2155.37,0.2,1724.3,Consumer,0.963,price_vs_category
+O0025104,2024-10-20,C00529,North,Office Supplies,3,2757.06,0.15,7030.5,Consumer,0.962,price_vs_category
+O0002410,2023-04-01,C00230,West,Office Supplies,1,2118.72,0.2,1694.98,Consumer,0.962,price_vs_category
+O0064829,2026-07-22,C00517,South,Furniture,1,12072.59,0.05,11468.96,SMB,0.962,qty_vs_own_history
+O0000780,2023-01-31,C01877,South,Furniture,1,7362.87,0.15,6258.44,SMB,0.961,qty_vs_own_history
+O0047698,2025-11-06,C00420,South,Furniture,1,8565.83,0.0,8565.83,SMB,0.961,qty_vs_own_history
+O0047534,2025-11-04,C01394,South,Furniture,1,11854.67,0.1,10669.2,SMB,0.961,qty_vs_own_history
+O0023626,2024-09-23,C01807,West,Furniture,1,5938.69,0.15,5047.89,SMB,0.961,qty_vs_own_history
+O0040592,2025-07-23,C02753,South,Furniture,1,7396.53,0.15,6287.05,SMB,0.961,qty_vs_own_history
+O0050066,2025-12-06,C00921,South,Furniture,1,13030.32,0.0,13030.32,SMB,0.961,qty_vs_segment
+O0037729,2025-06-02,C00731,East,Furniture,1,5252.79,0.0,5252.79,SMB,0.96,qty_vs_own_history
+O0055871,2026-03-04,C00891,South,Furniture,1,6048.64,0.15,5141.34,SMB,0.96,qty_vs_own_history
+O0028823,2024-12-18,C01454,South,Furniture,1,12003.5,0.05,11403.32,SMB,0.96,qty_vs_own_history
+O0018580,2024-06-03,C02108,West,Furniture,1,7152.3,0.15,6079.46,SMB,0.96,qty_vs_own_history
+O0067598,2026-09-01,C02711,South,Furniture,1,4646.43,0.2,3717.14,SMB,0.96,qty_vs_segment
+O0037990,2025-06-06,C02945,South,Furniture,1,6485.74,0.15,5512.88,SMB,0.959,qty_vs_own_history
+O0032999,2025-03-07,C00374,West,Furniture,1,8397.01,0.0,8397.01,SMB,0.959,qty_vs_own_history
+O0010470,2023-11-21,C02123,West,Furniture,1,8358.12,0.0,8358.12,SMB,0.959,qty_vs_own_history
+O0036987,2025-05-19,C00484,East,Furniture,1,8346.01,0.0,8346.01,SMB,0.959,qty_vs_own_history
+O0027424,2024-11-23,C02357,South,Furniture,1,6357.04,0.15,5403.48,SMB,0.959,qty_vs_own_history
+O0004535,2023-06-13,C00757,South,Furniture,1,11732.57,0.1,10559.31,SMB,0.959,qty_vs_own_history
+O0048022,2025-11-09,C02550,East,Furniture,1,5354.42,0.0,5354.42,SMB,0.959,qty_vs_own_history
+O0002308,2023-03-28,C02222,North,Furniture,1,6838.1,0.15,5812.38,SMB,0.959,qty_vs_own_history
+O0005639,2023-07-22,C01955,West,Furniture,1,7021.88,0.15,5968.6,SMB,0.959,qty_vs_own_history
+O0068394,2026-09-13,C02680,South,Furniture,1,8391.16,0.0,8391.16,SMB,0.959,qty_vs_own_history
+O0004944,2023-06-28,C01287,South,Furniture,1,6484.29,0.15,5511.65,SMB,0.959,qty_vs_own_history
+O0006248,2023-08-11,C00821,East,Furniture,1,8336.26,0.0,8336.26,SMB,0.959,qty_vs_own_history
+O0029743,2025-01-04,C01722,West,Furniture,1,9507.22,0.2,7605.78,SMB,0.959,qty_vs_segment
+O0051650,2025-12-28,C02960,South,Furniture,1,8333.9,0.0,8333.9,SMB,0.959,qty_vs_own_history
+O0040649,2025-07-24,C02189,North,Furniture,1,8398.56,0.0,8398.56,SMB,0.959,qty_vs_own_history
+O0051253,2025-12-23,C01835,West,Furniture,1,6994.62,0.15,5945.43,SMB,0.959,qty_vs_own_history
+O0032444,2025-02-24,C02920,South,Furniture,1,5401.76,0.0,5401.76,SMB,0.958,qty_vs_own_history
+O0040529,2025-07-22,C02893,West,Furniture,1,5365.7,0.0,5365.7,SMB,0.958,qty_vs_own_history
+O0013774,2024-02-10,C00483,East,Furniture,1,6531.04,0.15,5551.38,SMB,0.958,qty_vs_own_history
+O0028809,2024-12-18,C00589,South,Furniture,1,11891.33,0.05,11296.76,SMB,0.958,qty_vs_own_history
+O0038749,2025-06-21,C00080,South,Furniture,1,6548.89,0.15,5566.56,SMB,0.958,qty_vs_own_history
+O0045163,2025-10-07,C00908,North,Furniture,1,8259.49,0.0,8259.49,SMB,0.958,qty_vs_own_history
+O0052756,2026-01-15,C00190,West,Furniture,1,5411.72,0.0,5411.72,SMB,0.958,qty_vs_own_history
+O0026389,2024-11-07,C01410,North,Furniture,1,20924.48,0.0,20924.48,Consumer,0.957,cat_Furniture
+O0019934,2024-07-05,C01216,West,Office Supplies,5,135.94,0.2,543.76,Consumer,0.957,qty_vs_own_history
+O0053694,2026-01-29,C02047,North,Furniture,1,8138.13,0.0,8138.13,SMB,0.957,qty_vs_own_history
+O0053717,2026-01-30,C00374,West,Furniture,1,8178.17,0.0,8178.17,SMB,0.957,qty_vs_own_history
+O0047105,2025-10-30,C02190,West,Furniture,1,12825.78,0.0,12825.78,SMB,0.957,qty_vs_segment
+O0027878,2024-12-01,C01517,South,Furniture,1,4739.14,0.2,3791.31,SMB,0.957,qty_vs_segment
+O0035650,2025-04-24,C00578,West,Furniture,1,8147.01,0.0,8147.01,SMB,0.957,qty_vs_own_history
+O0047119,2025-10-30,C02599,West,Furniture,1,11815.13,0.2,9452.1,Consumer,0.956,cat_Furniture
+O0003282,2023-05-01,C00310,East,Furniture,1,5526.56,0.0,5526.56,SMB,0.956,qty_vs_own_history
+O0039363,2025-07-02,C00845,South,Furniture,1,11595.04,0.1,10435.54,SMB,0.956,qty_vs_own_history
+O0016433,2024-04-15,C02817,North,Furniture,1,8031.87,0.0,8031.87,SMB,0.956,qty_vs_own_history
+O0022214,2024-08-25,C00884,North,Furniture,1,8019.02,0.0,8019.02,SMB,0.956,qty_vs_own_history
+O0005181,2023-07-06,C02945,South,Furniture,1,7976.17,0.0,7976.17,SMB,0.955,qty_vs_own_history
+O0027094,2024-11-18,C01935,North,Furniture,10,4289.15,0.15,36457.78,SMB,0.955,qty_vs_own_history
+O0029018,2024-12-22,C00681,North,Furniture,1,5606.96,0.0,5606.96,SMB,0.955,qty_vs_own_history
+O0005026,2023-07-01,C01710,West,Furniture,1,5676.95,0.0,5676.95,SMB,0.954,qty_vs_own_history
+O0045262,2025-10-08,C01781,West,Furniture,1,5704.09,0.0,5704.09,SMB,0.954,qty_vs_own_history
+O0034976,2025-04-11,C02748,North,Furniture,1,5698.1,0.0,5698.1,SMB,0.954,qty_vs_own_history
+O0033473,2025-03-15,C02147,West,Furniture,1,15892.84,0.0,15892.84,Consumer,0.954,cat_Furniture
+O0026198,2024-11-04,C02991,North,Clothing,11,3772.29,0.2,33196.15,Corporate,0.954,cat_Clothing
+O0024823,2024-10-15,C02928,West,Clothing,15,3224.57,0.2,38694.84,Corporate,0.953,cat_Clothing
+O0034707,2025-04-07,C00841,West,Furniture,1,5773.09,0.0,5773.09,SMB,0.953,qty_vs_own_history
+O0010178,2023-11-15,C01370,South,Clothing,20,1516.09,0.2,24257.44,Corporate,0.953,cat_Clothing
+O0006666,2023-08-23,C01157,South,Furniture,1,7752.97,0.0,7752.97,SMB,0.953,qty_vs_own_history
+O0036676,2025-05-13,C01583,North,Office Supplies,1,1860.77,0.2,1488.62,Consumer,0.953,price_vs_category
+O0033479,2025-03-15,C02557,South,Furniture,1,5713.0,0.0,5713.0,SMB,0.953,qty_vs_own_history
+O0006411,2023-08-15,C02748,North,Furniture,1,5804.38,0.0,5804.38,SMB,0.953,qty_vs_own_history
+O0027672,2024-11-27,C01997,South,Furniture,1,20778.36,0.0,20778.36,Consumer,0.953,cat_Furniture
+O0067429,2026-08-30,C01849,North,Furniture,1,15866.49,0.0,15866.49,Consumer,0.953,cat_Furniture
+O0011251,2023-12-10,C00767,North,Furniture,1,5867.58,0.0,5867.58,SMB,0.952,qty_vs_own_history
+O0053259,2026-01-22,C02325,East,Furniture,1,5844.82,0.0,5844.82,SMB,0.952,qty_vs_own_history
+O0049464,2025-11-27,C02817,North,Furniture,1,5842.85,0.0,5842.85,SMB,0.952,qty_vs_own_history
+O0021943,2024-08-19,C01223,West,Office Supplies,1,2329.0,0.05,2212.55,Consumer,0.952,price_vs_category
+O0058870,2026-04-17,C02957,West,Furniture,1,7534.65,0.0,7534.65,SMB,0.952,qty_vs_own_history
+O0060819,2026-05-18,C01275,East,Furniture,1,11407.05,0.1,10266.34,SMB,0.952,qty_vs_own_history
+O0061998,2026-06-05,C01955,West,Furniture,1,7406.87,0.0,7406.87,SMB,0.951,qty_vs_own_history
+O0009598,2023-11-03,C01484,North,Furniture,1,6013.93,0.0,6013.93,SMB,0.951,qty_vs_own_history
+O0063633,2026-07-02,C02131,South,Furniture,1,7444.46,0.0,7444.46,SMB,0.951,qty_vs_own_history
+O0062610,2026-06-15,C02527,East,Furniture,1,7425.42,0.0,7425.42,SMB,0.951,qty_vs_own_history
+O0020158,2024-07-10,C01386,North,Furniture,1,5954.39,0.0,5954.39,SMB,0.951,qty_vs_own_history
+O0039960,2025-07-13,C00757,South,Furniture,1,7385.96,0.0,7385.96,SMB,0.951,qty_vs_own_history
+O0020673,2024-07-22,C01712,South,Furniture,1,5982.4,0.0,5982.4,SMB,0.951,qty_vs_own_history
+O0047413,2025-11-03,C00841,West,Furniture,1,7380.45,0.0,7380.45,SMB,0.951,qty_vs_own_history
+O0062585,2026-06-15,C01795,North,Furniture,1,6069.03,0.0,6069.03,SMB,0.95,qty_vs_own_history
+O0001256,2023-02-18,C00795,East,Furniture,1,6205.64,0.0,6205.64,SMB,0.95,qty_vs_own_history
+O0043253,2025-09-07,C01827,North,Furniture,1,7295.7,0.0,7295.7,SMB,0.95,qty_vs_own_history
+O0046682,2025-10-25,C02863,South,Furniture,1,7295.43,0.0,7295.43,SMB,0.95,qty_vs_own_history
+O0025900,2024-10-31,C01287,South,Furniture,1,7299.61,0.0,7299.61,SMB,0.95,qty_vs_own_history
+O0023534,2024-09-21,C02332,South,Furniture,1,7300.08,0.0,7300.08,SMB,0.95,qty_vs_own_history
+O0039030,2025-06-26,C01564,West,Office Supplies,1,2153.34,0.0,2153.34,Consumer,0.949,price_vs_category
+O0034449,2025-04-02,C00954,South,Furniture,1,7021.76,0.0,7021.76,SMB,0.949,qty_vs_own_history
+O0033437,2025-03-14,C02684,West,Furniture,1,6303.63,0.0,6303.63,SMB,0.949,qty_vs_own_history
+O0007731,2023-09-23,C00190,West,Furniture,1,6997.34,0.0,6997.34,SMB,0.949,qty_vs_own_history
+O0011552,2023-12-16,C02957,West,Furniture,1,6343.92,0.0,6343.92,SMB,0.949,qty_vs_own_history
+O0029703,2025-01-03,C02145,North,Furniture,1,7013.76,0.0,7013.76,SMB,0.949,qty_vs_own_history
+O0031535,2025-02-07,C01644,South,Furniture,1,6706.48,0.0,6706.48,SMB,0.949,qty_vs_own_history
+O0041613,2025-08-11,C00607,West,Furniture,1,6771.45,0.0,6771.45,SMB,0.949,qty_vs_own_history
+O0056806,2026-03-18,C01832,West,Furniture,1,7106.07,0.0,7106.07,SMB,0.949,qty_vs_own_history
+O0056887,2026-03-19,C02487,North,Clothing,16,4149.02,0.15,56426.67,Corporate,0.949,cat_Clothing
+O0027558,2024-11-25,C02957,West,Furniture,1,7081.34,0.0,7081.34,SMB,0.949,qty_vs_own_history
+O0018390,2024-05-30,C01841,West,Furniture,1,7138.19,0.0,7138.19,SMB,0.949,qty_vs_own_history
+O0068976,2026-09-22,C02291,South,Furniture,1,6274.66,0.0,6274.66,SMB,0.949,qty_vs_own_history
+O0020755,2024-07-24,C00488,West,Furniture,1,6592.36,0.0,6592.36,SMB,0.949,qty_vs_own_history
+O0067999,2026-09-07,C01994,West,Furniture,1,6778.69,0.0,6778.69,SMB,0.949,qty_vs_own_history
+O0044820,2025-10-02,C00241,East,Furniture,1,6660.07,0.0,6660.07,SMB,0.949,qty_vs_own_history
+O0053827,2026-02-01,C00305,West,Furniture,1,6702.62,0.0,6702.62,SMB,0.949,qty_vs_own_history
+O0053940,2026-02-02,C02427,South,Furniture,1,6781.45,0.0,6781.45,SMB,0.949,qty_vs_own_history
+O0023346,2024-09-18,C00026,South,Furniture,1,6807.96,0.0,6807.96,SMB,0.949,qty_vs_own_history
+O0043199,2025-09-06,C01719,North,Furniture,1,6728.8,0.0,6728.8,SMB,0.949,qty_vs_own_history
+O0003035,2023-04-22,C01834,North,Furniture,1,7121.42,0.0,7121.42,SMB,0.949,qty_vs_own_history
+O0062810,2026-06-19,C00845,South,Furniture,1,6944.81,0.0,6944.81,SMB,0.949,qty_vs_own_history
+O0031246,2025-02-02,C01318,North,Electronics,4,15364.88,0.15,52240.59,Corporate,0.946,qty_vs_own_history
+O0013103,2024-01-24,C01356,North,Furniture,3,2084.16,0.15,5314.61,Consumer,0.946,price_vs_category
+O0016815,2024-04-24,C02408,North,Furniture,1,3908.27,0.05,3712.86,SMB,0.946,qty_vs_own_history
+O0026701,2024-11-12,C01373,North,Furniture,2,25476.29,0.0,50952.58,Consumer,0.944,cat_Furniture
+O0024086,2024-10-02,C00705,North,Furniture,1,11378.79,0.2,9103.03,Consumer,0.944,cat_Furniture
+O0022961,2024-09-09,C01859,North,Office Supplies,8,86.62,0.0,692.96,SMB,0.944,price_vs_category
+O0049852,2025-12-03,C01250,South,Furniture,1,5343.29,0.2,4274.63,SMB,0.943,qty_vs_segment
+O0061162,2026-05-23,C01510,South,Furniture,1,15343.93,0.2,12275.14,Consumer,0.941,cat_Furniture
+O0050964,2025-12-19,C01736,South,Furniture,1,11235.36,0.2,8988.29,Consumer,0.94,cat_Furniture
+O0069356,2026-09-28,C01916,West,Office Supplies,4,1082.06,0.0,4328.24,Corporate,0.94,price_vs_category
+O0011575,2023-12-17,C02615,South,Furniture,1,11204.81,0.2,8963.85,Consumer,0.94,cat_Furniture
+O0060140,2026-05-07,C00449,West,Furniture,1,5665.09,0.2,4532.07,SMB,0.939,qty_vs_segment
+O0044746,2025-10-01,C00366,East,Office Supplies,4,92.96,0.05,353.25,Consumer,0.939,price_vs_category
+O0067906,2026-09-06,C00636,South,Furniture,1,17695.75,0.05,16810.96,Consumer,0.939,cat_Furniture
+O0036111,2025-05-02,C02109,South,Furniture,1,18306.85,0.05,17391.51,SMB,0.938,qty_vs_segment
+O0021543,2024-08-10,C01405,North,Furniture,1,15517.54,0.15,13189.91,Consumer,0.938,cat_Furniture
+O0060624,2026-05-14,C02579,West,Furniture,1,4056.91,0.05,3854.06,SMB,0.938,qty_vs_own_history
+O0020026,2024-07-07,C00936,North,Furniture,1,10628.78,0.1,9565.9,SMB,0.938,qty_vs_own_history
+O0022125,2024-08-23,C00285,South,Furniture,1,10577.59,0.1,9519.83,SMB,0.937,qty_vs_own_history
+O0007405,2023-09-13,C02360,North,Office Supplies,1,2122.75,0.0,2122.75,Consumer,0.937,price_vs_category
+O0002038,2023-03-17,C02798,West,Furniture,1,7459.44,0.2,5967.55,SMB,0.936,qty_vs_segment
+O0043705,2025-09-15,C00093,North,Furniture,1,10523.79,0.1,9471.41,SMB,0.936,qty_vs_own_history
+O0060450,2026-05-11,C02733,South,Office Supplies,1,2404.26,0.0,2404.26,Consumer,0.936,price_vs_category
+O0034269,2025-03-30,C01611,East,Furniture,1,10698.91,0.05,10163.96,SMB,0.935,qty_vs_own_history
+O0032005,2025-02-16,C02209,South,Furniture,1,7349.82,0.2,5879.86,SMB,0.935,qty_vs_segment
+O0000593,2023-01-24,C02152,South,Furniture,1,11032.13,0.2,8825.7,Consumer,0.935,cat_Furniture
+O0067765,2026-09-04,C00563,North,Electronics,5,3390.47,0.0,16952.35,Consumer,0.935,price_vs_category
+O0059364,2026-04-24,C02425,East,Furniture,1,8779.83,0.2,7023.86,Consumer,0.935,cat_Furniture
+O0002832,2023-04-16,C00557,West,Furniture,1,6286.23,0.2,5028.98,SMB,0.934,qty_vs_segment
+O0001297,2023-02-19,C02298,East,Furniture,1,15195.89,0.0,15195.89,Consumer,0.934,cat_Furniture
+O0064361,2026-07-14,C02109,South,Furniture,1,6993.64,0.2,5594.91,SMB,0.934,qty_vs_segment
+O0057209,2026-03-24,C00651,West,Furniture,1,7251.93,0.2,5801.54,SMB,0.934,qty_vs_segment
+O0008463,2023-10-11,C02638,South,Furniture,1,15049.78,0.2,12039.82,Consumer,0.934,cat_Furniture
+O0044141,2025-09-21,C00869,North,Furniture,1,4136.64,0.05,3929.81,SMB,0.934,qty_vs_own_history
+O0034161,2025-03-28,C00557,West,Furniture,1,6403.69,0.2,5122.95,SMB,0.933,qty_vs_segment
+O0053453,2026-01-26,C00750,West,Furniture,1,6472.97,0.2,5178.38,SMB,0.933,qty_vs_segment
+O0049136,2025-11-23,C01229,East,Furniture,1,15186.25,0.0,15186.25,Consumer,0.933,cat_Furniture
+O0019452,2024-06-24,C02147,West,Office Supplies,2,2291.15,0.2,3665.84,Consumer,0.933,price_vs_category
+O0066757,2026-08-20,C00438,West,Office Supplies,1,1814.79,0.2,1451.83,Consumer,0.933,price_vs_category
+O0049130,2025-11-23,C00820,North,Clothing,15,3124.19,0.2,37490.28,Corporate,0.932,cat_Clothing
+O0026204,2024-11-05,C00302,North,Electronics,5,4487.79,0.2,17951.16,Consumer,0.932,price_vs_category
+O0054742,2026-02-14,C02754,South,Furniture,1,10537.97,0.05,10011.07,SMB,0.932,qty_vs_own_history
+O0003774,2023-05-16,C01446,South,Furniture,1,10429.44,0.05,9907.97,SMB,0.93,qty_vs_own_history
+O0048341,2025-11-13,C00568,West,Office Supplies,1,2383.8,0.0,2383.8,Consumer,0.929,price_vs_category
+O0020779,2024-07-24,C01555,South,Furniture,1,10173.73,0.1,9156.36,SMB,0.929,qty_vs_own_history
+O0061801,2026-06-02,C02042,East,Office Supplies,1,2384.66,0.0,2384.66,Consumer,0.929,price_vs_category
+O0064737,2026-07-20,C02485,North,Furniture,5,3400.61,0.1,15302.74,SMB,0.928,qty_vs_own_history
+O0000054,2023-01-03,C00952,South,Clothing,17,582.5,0.2,7922.0,Corporate,0.928,cat_Clothing
+O0051461,2025-12-26,C00029,North,Office Supplies,9,3230.09,0.0,29070.81,Corporate,0.927,price_vs_category
+O0044527,2025-09-27,C01425,South,Furniture,1,4289.66,0.05,4075.18,SMB,0.927,qty_vs_own_history
+O0016541,2024-04-18,C01153,South,Furniture,26,6174.24,0.2,128424.19,Corporate,0.927,discount
+O0018105,2024-05-23,C02551,West,Furniture,1,10263.04,0.05,9749.89,SMB,0.927,qty_vs_own_history
+O0037283,2025-05-24,C01485,South,Furniture,1,14757.19,0.2,11805.75,Consumer,0.926,cat_Furniture
+O0021882,2024-08-18,C00307,West,Furniture,1,10185.24,0.05,9675.98,SMB,0.926,qty_vs_own_history
+O0061016,2026-05-21,C00591,North,Furniture,1,19742.85,0.0,19742.85,Consumer,0.926,cat_Furniture
+O0064248,2026-07-13,C00292,North,Office Supplies,6,2044.36,0.0,12266.16,Corporate,0.925,price_vs_category
+O0062291,2026-06-10,C01581,West,Furniture,1,17380.84,0.0,17380.84,Consumer,0.925,cat_Furniture
+O0055495,2026-02-26,C00976,West,Furniture,1,14899.9,0.0,14899.9,Consumer,0.925,cat_Furniture
+O0011005,2023-12-04,C00737,North,Furniture,1,14865.18,0.0,14865.18,Consumer,0.924,cat_Furniture
+O0010991,2023-12-03,C02372,West,Furniture,1,10627.0,0.2,8501.6,Consumer,0.924,cat_Furniture
+O0054893,2026-02-17,C00703,West,Electronics,8,1959.31,0.1,14107.03,Corporate,0.923,price_vs_category
+O0068937,2026-09-22,C00278,North,Furniture,11,6313.38,0.2,55557.74,SMB,0.922,qty_vs_own_history
+O0052177,2026-01-06,C00785,West,Furniture,1,9742.02,0.1,8767.82,SMB,0.922,qty_vs_own_history
+O0027983,2024-12-03,C01710,West,Furniture,1,9921.07,0.05,9425.02,SMB,0.921,qty_vs_own_history
+O0013174,2024-01-26,C00268,North,Furniture,1,9702.94,0.1,8732.65,SMB,0.921,qty_vs_own_history
+O0037926,2025-06-05,C02025,North,Office Supplies,1,2012.41,0.2,1609.93,Consumer,0.921,price_vs_category
+O0041482,2025-08-08,C01194,West,Office Supplies,1,2251.16,0.1,2026.04,Consumer,0.921,price_vs_category
+O0034883,2025-04-10,C01379,East,Electronics,3,2461.55,0.1,6646.18,Consumer,0.921,price_vs_category
+O0055283,2026-02-23,C01077,North,Office Supplies,1,2540.39,0.1,2286.35,Consumer,0.92,price_vs_category
+O0053483,2026-01-26,C02465,North,Furniture,1,9863.28,0.05,9370.12,SMB,0.92,qty_vs_own_history
+O0004992,2023-06-30,C00839,North,Clothing,18,3772.99,0.0,67913.82,Corporate,0.919,cat_Clothing
+O0058416,2026-04-11,C01253,South,Furniture,1,9578.07,0.1,8620.26,SMB,0.919,qty_vs_own_history
+O0047864,2025-11-07,C02632,West,Office Supplies,2,2860.5,0.05,5434.95,Consumer,0.917,price_vs_category
+O0001466,2023-02-26,C01003,South,Furniture,1,19359.76,0.0,19359.76,Consumer,0.917,cat_Furniture
+O0053649,2026-01-29,C00158,West,Furniture,1,14641.16,0.0,14641.16,Consumer,0.917,cat_Furniture
+O0042542,2025-08-26,C02190,West,Furniture,1,10091.03,0.15,8577.38,SMB,0.917,qty_vs_segment
+O0055386,2026-02-24,C02667,South,Furniture,1,14349.55,0.2,11479.64,Consumer,0.916,cat_Furniture
+O0020373,2024-07-15,C02863,South,Furniture,1,9619.51,0.05,9138.53,SMB,0.916,qty_vs_own_history
+O0041515,2025-08-08,C02753,South,Furniture,1,9526.83,0.05,9050.49,SMB,0.915,qty_vs_own_history
+O0051597,2025-12-28,C00006,North,Furniture,1,19277.9,0.0,19277.9,Consumer,0.915,cat_Furniture
+O0025270,2024-10-22,C02131,South,Furniture,1,4619.69,0.05,4388.71,SMB,0.915,qty_vs_own_history
+O0034549,2025-04-03,C02260,North,Furniture,1,7916.26,0.2,6333.01,Consumer,0.914,cat_Furniture
+O0001056,2023-02-10,C01891,East,Office Supplies,4,118.54,0.2,379.33,Consumer,0.914,price_vs_category
+O0069379,2026-09-28,C02716,South,Office Supplies,2,2849.14,0.05,5413.37,Consumer,0.914,price_vs_category
+O0044876,2025-10-02,C02471,North,Furniture,1,12479.11,0.2,9983.29,Consumer,0.914,cat_Furniture
+O0058958,2026-04-19,C00725,North,Furniture,1,10252.65,0.2,8202.12,Consumer,0.914,cat_Furniture
+O0025991,2024-11-01,C01916,West,Furniture,4,13061.96,0.0,52247.84,Corporate,0.913,qty_vs_own_history
+O0042803,2025-08-31,C00157,South,Furniture,1,14250.89,0.2,11400.71,Consumer,0.913,cat_Furniture
+O0017635,2024-05-13,C00716,East,Furniture,1,10590.84,0.0,10590.84,SMB,0.913,qty_vs_segment
+O0041488,2025-08-08,C01456,North,Office Supplies,5,3103.41,0.0,15517.05,Consumer,0.913,price_vs_category
+O0056393,2026-03-12,C02440,South,Furniture,1,14185.43,0.2,11348.34,Consumer,0.912,cat_Furniture
+O0043397,2025-09-09,C02531,West,Furniture,1,9122.09,0.1,8209.88,SMB,0.912,qty_vs_own_history
+O0035413,2025-04-20,C00143,West,Office Supplies,2,2226.92,0.2,3563.07,Consumer,0.911,price_vs_category
+O0011548,2023-12-16,C02815,West,Clothing,6,3184.62,0.05,18152.33,Corporate,0.911,cat_Clothing
+O0049153,2025-11-23,C02172,East,Furniture,1,4787.57,0.05,4548.19,SMB,0.91,qty_vs_own_history
+O0024639,2024-10-12,C01056,North,Furniture,1,16645.89,0.05,15813.6,Consumer,0.91,cat_Furniture
+O0048818,2025-11-18,C02983,East,Furniture,1,9127.59,0.05,8671.21,SMB,0.909,qty_vs_own_history
+O0037929,2025-06-05,C02391,West,Furniture,1,9176.45,0.05,8717.63,SMB,0.909,qty_vs_own_history
+O0031899,2025-02-14,C00644,North,Electronics,4,3456.08,0.0,13824.32,Consumer,0.908,price_vs_category
+O0041442,2025-08-07,C02325,East,Furniture,1,9095.95,0.05,8641.15,SMB,0.908,qty_vs_own_history
+O0041689,2025-08-12,C01136,South,Furniture,1,4982.83,0.1,4484.55,SMB,0.908,qty_vs_own_history
+O0023711,2024-09-25,C00148,South,Furniture,1,19012.77,0.15,16160.85,Consumer,0.908,cat_Furniture
+O0002966,2023-04-20,C00358,South,Clothing,5,491.14,0.0,2455.7,Corporate,0.907,cat_Clothing
+O0058254,2026-04-09,C00349,East,Furniture,1,9972.11,0.2,7977.69,Consumer,0.907,cat_Furniture
+O0010557,2023-11-23,C01402,West,Office Supplies,1,2501.53,0.1,2251.38,Consumer,0.907,price_vs_category
+O0018991,2024-06-13,C00921,South,Furniture,1,4449.81,0.0,4449.81,SMB,0.906,qty_vs_segment
+O0042097,2025-08-19,C00462,North,Furniture,1,8678.02,0.1,7810.22,SMB,0.906,qty_vs_own_history
+O0043115,2025-09-05,C00654,East,Office Supplies,1,2318.27,0.0,2318.27,Consumer,0.906,price_vs_category
+O0066836,2026-08-21,C00611,West,Furniture,1,4941.09,0.05,4694.04,SMB,0.906,qty_vs_own_history
+O0008024,2023-10-01,C02317,South,Electronics,4,6083.27,0.0,24333.08,Corporate,0.905,qty_vs_segment
+O0026070,2024-11-02,C02734,North,Office Supplies,1,2316.98,0.0,2316.98,Consumer,0.905,price_vs_category
+O0000771,2023-01-31,C00927,South,Furniture,1,14390.11,0.15,12231.59,Consumer,0.905,cat_Furniture
+O0064809,2026-07-21,C02555,North,Furniture,1,8855.39,0.05,8412.62,SMB,0.905,qty_vs_own_history
+O0047604,2025-11-05,C00062,South,Furniture,1,19030.45,0.1,17127.41,Consumer,0.905,cat_Furniture
+O0017600,2024-05-12,C01281,North,Furniture,1,8763.64,0.05,8325.46,SMB,0.904,qty_vs_own_history
+O0062770,2026-06-18,C01641,North,Furniture,1,13909.25,0.2,11127.4,Consumer,0.904,cat_Furniture
+O0025630,2024-10-27,C02271,North,Furniture,1,13909.94,0.2,11127.95,Consumer,0.904,cat_Furniture
+O0009128,2023-10-25,C02597,North,Furniture,1,5137.21,0.1,4623.49,SMB,0.904,qty_vs_own_history
+O0006156,2023-08-08,C01183,East,Furniture,1,8750.2,0.05,8312.69,SMB,0.903,qty_vs_own_history
+O0060965,2026-05-20,C01362,West,Furniture,1,5042.28,0.05,4790.17,SMB,0.903,qty_vs_own_history
+O0021033,2024-07-31,C00320,South,Furniture,1,5050.37,0.05,4797.85,SMB,0.903,qty_vs_own_history
+O0020306,2024-07-13,C02894,North,Furniture,1,16402.8,0.05,15582.66,Consumer,0.903,cat_Furniture
+O0052649,2026-01-13,C01067,South,Furniture,1,14099.68,0.0,14099.68,SMB,0.902,qty_vs_segment
+O0022973,2024-09-09,C02696,East,Electronics,5,4069.13,0.2,16276.52,Consumer,0.902,price_vs_category
+O0031361,2025-02-04,C01376,North,Furniture,1,14095.33,0.0,14095.33,Consumer,0.902,cat_Furniture
+O0049468,2025-11-27,C02877,East,Furniture,1,8618.13,0.05,8187.22,SMB,0.902,qty_vs_own_history
+O0058673,2026-04-15,C00908,North,Furniture,1,5332.2,0.1,4798.98,SMB,0.901,qty_vs_own_history
+O0065215,2026-07-28,C01626,North,Furniture,1,13790.45,0.2,11032.36,Consumer,0.901,cat_Furniture
+O0052596,2026-01-12,C02368,East,Furniture,1,8196.68,0.1,7377.01,SMB,0.901,qty_vs_own_history
+O0004060,2023-05-26,C01723,North,Furniture,1,11940.32,0.2,9552.26,Consumer,0.9,cat_Furniture
+O0032142,2025-02-19,C00080,South,Furniture,1,5194.01,0.05,4934.31,SMB,0.9,qty_vs_own_history
+O0025435,2024-10-24,C02892,South,Furniture,1,5348.86,0.1,4813.97,SMB,0.9,qty_vs_own_history
+O0064423,2026-07-15,C01966,South,Furniture,1,8008.19,0.1,7207.37,SMB,0.899,qty_vs_own_history
+O0024452,2024-10-09,C00445,South,Furniture,1,14015.66,0.0,14015.66,Consumer,0.899,cat_Furniture
+O0006765,2023-08-26,C00553,North,Furniture,1,5412.09,0.1,4870.88,SMB,0.899,qty_vs_own_history
+O0030432,2025-01-17,C02404,South,Furniture,1,8026.14,0.1,7223.53,SMB,0.899,qty_vs_own_history
+O0021729,2024-08-14,C02608,South,Furniture,1,8431.9,0.05,8010.3,SMB,0.899,qty_vs_own_history
+O0035468,2025-04-21,C01303,West,Furniture,1,5427.11,0.1,4884.4,SMB,0.899,qty_vs_own_history
+O0033965,2025-03-24,C02793,South,Furniture,1,2764.0,0.2,2211.2,Consumer,0.899,cat_Furniture
+O0045127,2025-10-06,C02557,South,Furniture,10,4549.51,0.2,36396.08,SMB,0.899,qty_vs_own_history
+O0039076,2025-06-27,C00632,South,Furniture,1,9622.45,0.2,7697.96,Consumer,0.898,cat_Furniture
+O0035820,2025-04-27,C00425,South,Office Supplies,1,2024.45,0.0,2024.45,Consumer,0.898,price_vs_category
+O0065093,2026-07-26,C01518,East,Furniture,1,4971.52,0.15,4225.79,SMB,0.898,qty_vs_segment
+O0006199,2023-08-09,C02850,South,Clothing,17,757.21,0.2,10298.06,Corporate,0.898,cat_Clothing
+O0068601,2026-09-16,C02267,North,Office Supplies,4,1014.14,0.0,4056.56,Corporate,0.898,price_vs_category
+O0044155,2025-09-21,C01680,West,Clothing,11,4911.45,0.05,51324.65,Corporate,0.898,price_vs_category
+O0006480,2023-08-17,C02735,East,Furniture,1,7945.92,0.1,7151.33,SMB,0.898,qty_vs_own_history
+O0062238,2026-06-09,C02119,South,Clothing,2,21357.13,0.1,38442.83,Consumer,0.897,qty_vs_own_history
+O0045868,2025-10-16,C01952,North,Furniture,1,7792.98,0.1,7013.68,SMB,0.897,qty_vs_own_history
+O0066851,2026-08-21,C01300,North,Furniture,1,5360.68,0.05,5092.65,SMB,0.897,qty_vs_own_history
+O0006195,2023-08-09,C02526,North,Furniture,1,4287.94,0.2,3430.35,SMB,0.897,qty_vs_segment
+O0017977,2024-05-20,C02443,West,Furniture,1,9615.34,0.2,7692.27,Consumer,0.897,cat_Furniture
+O0055341,2026-02-24,C00455,South,Furniture,1,4706.52,0.0,4706.52,SMB,0.897,qty_vs_segment
+O0058201,2026-04-08,C01479,East,Furniture,1,9556.72,0.2,7645.38,Consumer,0.896,cat_Furniture
+O0011569,2023-12-17,C01861,North,Furniture,1,5431.9,0.05,5160.3,SMB,0.896,qty_vs_own_history
+O0051159,2025-12-22,C01120,West,Furniture,1,7711.31,0.1,6940.18,SMB,0.896,qty_vs_own_history
+O0001760,2023-03-08,C01157,South,Furniture,1,7534.19,0.1,6780.77,SMB,0.895,qty_vs_own_history
+O0069422,2026-09-29,C01155,East,Furniture,1,7536.19,0.1,6782.57,SMB,0.895,qty_vs_own_history
+O0012834,2024-01-17,C00328,South,Furniture,1,16291.38,0.0,16291.38,Consumer,0.895,cat_Furniture
+O0013268,2024-01-29,C00011,South,Furniture,1,4778.45,0.0,4778.45,SMB,0.895,qty_vs_segment
+O0039210,2025-06-29,C01757,North,Furniture,1,14062.42,0.15,11953.06,Consumer,0.895,cat_Furniture
+O0001207,2023-02-16,C01275,East,Furniture,1,7902.47,0.05,7507.35,SMB,0.894,qty_vs_own_history
+O0020621,2024-07-21,C01567,North,Furniture,1,20958.86,0.1,18862.97,Consumer,0.894,cat_Furniture
+O0016555,2024-04-18,C02278,South,Furniture,1,7916.0,0.05,7520.2,SMB,0.894,qty_vs_own_history
+O0026775,2024-11-13,C01358,South,Furniture,1,9473.27,0.2,7578.62,Consumer,0.894,cat_Furniture
+O0041876,2025-08-15,C00484,East,Furniture,1,7429.89,0.1,6686.9,SMB,0.894,qty_vs_own_history
+O0038036,2025-06-07,C02804,South,Furniture,1,9486.42,0.2,7589.14,Consumer,0.894,cat_Furniture

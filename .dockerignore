@@ -1,0 +1,16 @@
+# keep the image small: only what the dashboard + API need
+.git
+.github
+.vscode
+.venv
+**/__pycache__
+**/.ipynb_checkpoints
+notebooks/
+reports/lstm_folds*/
+reports/agent/
+*.bat
+*.log
+run_log.txt
+setup_log.txt
+.env
+models/*.keras

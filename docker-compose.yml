@@ -1,0 +1,27 @@
+# docker compose up --build      -> dashboard http://localhost:8080 , API http://localhost:8000/docs
+# (8080, not 8501, so it never clashes with run_dashboard.bat running outside Docker)
+# docker compose down            -> stop both
+services:
+  dashboard:
+    build: .
+    image: ai-bi-decision-support:latest
+    ports:
+      - "8080:8501"     # host:container
+    restart: unless-stopped
+    environment:
+      # optional: let Claude write agent/RAG answers. Put the key in a .env file next to this one
+      # (never commit .env):  ANTHROPIC_API_KEY=sk-...
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+
+  api:
+    image: ai-bi-decision-support:latest
+    depends_on:
+      - dashboard          # reuses the image built by the dashboard service
+    command: ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - HEALTH_PORT=8000
+      - HEALTH_PATH=/health

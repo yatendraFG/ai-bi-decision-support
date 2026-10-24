@@ -1,0 +1,88 @@
+customer_id,segment_name,segment,churn_probability,revenue_at_risk_365d,ticket_id,created_at,pred_category,priority,text
+C01658,Champions,SMB,0.601,315038.0,T010184,2026-09-09,Product Quality,High,Battery of the headphones drains very fast. Thanks.
+C00974,Champions,Corporate,0.132,303918.0,T010101,2026-08-30,Billing,Low,"Hi there, EMI option is not showing on my card. I would appreciate it if this is sorted soon, it has been a while. Pls check asap."
+C02222,Champions,SMB,0.157,137212.0,T009953,2026-08-15,Refund,Medium,"Dear team, 15 din ho gaye refund nahi mila. Paisa barbaad ho gaya."
+C01430,Big-ticket buyers,Corporate,0.082,121132.0,T009812,2026-08-02,Product Quality,Medium,"Hi, Stapler ek hafte mein kharab ho gaya. Thanks!!!"
+C01832,Champions,SMB,0.203,108919.0,T010203,2026-09-11,Technical,Medium,How do I reset my password. I am fed up of following up. Kindly do the needful.
+C02531,Big-ticket buyers,SMB,0.307,106637.0,T010099,2026-08-30,Technical,High,Login nahi ho raha. Bahut bura experience hai. Waiting for reply.
+C02408,Champions,SMB,0.183,83863.0,T010297,2026-09-23,Product Quality,High,I have an issue with order #928608. I want a refund or replacement. If not fixed I will cancel my account. Regards.
+C00733,Loyal regulars,SMB,0.571,80364.0,T009978,2026-08-18,Product Quality,Medium,What material is the printer made of. If not fixed I will cancel my account.
+C02544,Big-ticket buyers,Corporate,0.091,70588.0,T009870,2026-08-08,Refund,Medium,There is a problem with my last purchase. Also the refund is still pending. Worst experience ever. Kindly do the needful!!!
+C00509,Occasional buyers,Consumer,0.701,68539.0,T009841,2026-08-04,Delivery,Medium,"Namaste, Half of my order i mising, only got the sofa. This is really frustrating.. Thank you."
+C02267,Big-ticket buyers,Corporate,0.071,65945.0,T009955,2026-08-16,Refund,Medium,the refund went to the wrong account. this is really frustrating. kindly do the needful!!!
+C02570,Champions,SMB,0.121,61702.0,T009952,2026-08-15,Product Quality,Medium,"Dear team, Kurta ki quality bekar hai. I want a refund or replacement. Bakwas service. Regards."
+C00444,Big-ticket buyers,SMB,0.144,61173.0,T009979,2026-08-18,Billing,High,Payment ho gaya par order fail ho gaya. Paisa barbaad ho gaya!!!
+C01432,Big-ticket buyers,SMB,0.17,53053.0,T010226,2026-09-14,Billing,High,There is a problem with my last purchase.
+C00880,Champions,Consumer,0.19,50783.0,T010078,2026-08-28,Billing,High,"Dear team, My card was debited but the order failed. This is really frustrating. Waiting for reply."
+C02535,Loyal regulars,SMB,0.202,48710.0,T010202,2026-09-11,Product Quality,High,"Hi, What material is the jacket made of!!!"
+C00384,Champions,SMB,0.079,46927.0,T010149,2026-09-05,Delivery,Low,My order #9733073 has not been deliveerd yet. This is really rustrating. Thank you.
+C00756,Loyal regulars,Consumer,0.625,45705.0,T010329,2026-09-28,Technical,Medium,"Dear team, Payment page atak gaya hai. Bahut bura experience hai. Waiting for reply."
+C01607,Champions,SMB,0.086,43256.0,T010268,2026-09-20,Billing,High,"Hi, I was charged twice for order #547281. And the delivery was late too. This is really frustrating. Regards."
+C01748,Champions,SMB,0.06,42060.0,T010095,2026-08-29,Product Quality,Medium,"Hello team, I have an issue with order #430401. This is really frustrating!!!"
+C00840,Big-ticket buyers,Corporate,0.048,40678.0,T009849,2026-08-05,Product Quality,High,"namaste, something is wrong with my shoes order."
+C02846,Loyal regulars,Consumer,0.224,39582.0,T009924,2026-08-13,Technical,High,"Namaste, How do I reset my password. This is unacceptable. Thanks."
+C02602,Occasional buyers,Consumer,0.184,36478.0,T010051,2026-08-25,Refund,High,"Namaste, I want to cancel order #973053 and get a refund. Third time I am complaining!! Regards."
+C00472,Occasional buyers,SMB,0.201,33704.0,T010137,2026-09-05,Product Quality,Medium,"namaste, is there a warranty on the router. i will never order again."
+C02579,Champions,SMB,0.061,32424.0,T009819,2026-08-03,Product Quality,Medium,"The router is not as described on the website. Great, another delay. Amazing service. Thank you."
+C02720,Occasional buyers,Consumer,0.246,31563.0,T010213,2026-09-13,Billing,Medium,"Hello team, Something is wrong with my printer order. Waiting for reply!!!"
+C01840,Champions,Consumer,0.177,30927.0,T010189,2026-09-10,Technical,Low,"hey, the payment page is stuck on loading. this is unacceptable. regards."
+C00538,Loyal regulars,Consumer,0.232,29588.0,T009996,2026-08-19,Product Quality,Low,"Namaste, The tablet stopped working within  a week. Thanks a lot for wasting my week. Thanks."
+C02032,Occasional buyers,Consumer,0.404,29273.0,T010307,2026-09-25,Delivery,High,"Hello team, Delivery status shows deivered but I never got the kurta. Very disappointed iwth your service. Please help."
+C00582,Champions,SMB,0.118,28158.0,T010100,2026-08-30,Billing,High,The coupon code gave an error during payment. Also the refundd is still pending. Very disappointe with your service!!!
+C02422,Occasional buyers,SMB,0.127,27206.0,T010111,2026-09-01,Delivery,High,"Namaste, Can you share the tracking link for my monitor."
+C01123,Big-ticket buyers,Corporate,0.171,26240.0,T010227,2026-09-14,Product Quality,High,"Hey, The jacket is not as described on the website. I want a refund or replacement. I will never order again. Thanks."
+C01877,Champions,SMB,0.045,24327.0,T009837,2026-08-04,Delivery,High,Can you share the tracking link for my monitor. Totally useless support. Regards.
+C00600,Occasional buyers,Consumer,0.196,24290.0,T010231,2026-09-14,Delivery,Medium,"Where is my shpiment, tracking is not updaitng. Great, another delay. Amazing service. Regards."
+C01479,Occasional buyers,Consumer,0.169,22726.0,T010067,2026-08-27,Delivery,High,"Hi, Half of my order is missing, only got the router. Worst experience ever. Thank you."
+C01921,Champions,SMB,0.053,22685.0,T009889,2026-08-10,Technical,High,Login nahi ho raha. Bahut bura experience hai. Pls check asap.
+C00473,Big-ticket buyers,Corporate,0.073,21031.0,T009866,2026-08-07,Technical,Low,"namaste, i cannot log in to my account. nobody is responding to my emails. kindly do the needful."
+C01745,Occasional buyers,SMB,0.1,20656.0,T010306,2026-09-25,Refund,High,"Hi, What is the refund timeline for returned items. Thanks a lot for wasting my week. Thank you."
+C02599,Occasional buyers,Consumer,0.219,20432.0,T009868,2026-08-08,Technical,Low,"Hi, The website keeps showing an error 500. Nobody is responding to my emails. Please help!!!"
+C00941,Champions,SMB,0.042,18790.0,T010019,2026-08-21,Delivery,High,"Where is my shipment, tracking is not updating. I will never order again. Pls check asap."
+C02323,Occasional buyers,Consumer,0.201,18746.0,T010285,2026-09-21,Product Quality,High,"Hi there, The desk makes a strange noise. Totally useless support. Regards."
+C02632,Occasional buyers,Consumer,0.324,18692.0,T010023,2026-08-21,Product Quality,High,Battery of the phone drains very fast. Delivery was fine though. Worst experience ever. Pls check asap.
+C00121,Occasional buyers,Consumer,0.162,16832.0,T010301,2026-09-24,Billing,Low,"Hey, My card was debited but the order failed. Thanks a lot for wasting my week."
+C02170,Loyal regulars,Consumer,0.113,16392.0,T010298,2026-09-23,Product Quality,High,I have an issue with order #415425. Unfortunately this has happened again. Thanks.
+C00917,Occasional buyers,Consumer,0.375,16375.0,T010156,2026-09-06,Product Quality,High,"dear team, battery of the monitor drains very fast. wow, what a fantastic experience. not. kindly do the needful."
+C00471,Occasional buyers,Consumer,0.181,15244.0,T009965,2026-08-17,Product Quality,High,"Namaste, The stapler is not as described on the website. Waiting for reply."
+C02715,Occasional buyers,Consumer,0.162,14797.0,T010102,2026-08-30,Billing,Medium,"Hello team ,The coupon code gave an error during payment. Totally useless support."
+C00457,Loyal regulars,Consumer,0.232,14454.0,T010294,2026-09-23,Technical,Medium,"Namaste, The app crashes when I try to checkout. I will never order again. Waiting for reply."
+C01718,Occasional buyers,SMB,0.112,13792.0,T010177,2026-09-08,Billing,High,"Hi support, The coupon code gave an error during payment. I would appreciate it if this is sorted soon, it hsa been a while."
+C02039,Loyal regulars,Consumer,0.131,13201.0,T010241,2026-09-15,Delivery,Low,"hey, i need to change the delivery address for order #554940. if not fixed i will cancel my account. pls check asap."
+C02398,Occasional buyers,SMB,0.067,13156.0,T009833,2026-08-04,Product Quality,High,The printer has scratches out of the box. Waiting for reply.
+C00315,Occasional buyers,SMB,0.135,13068.0,T009907,2026-08-11,Delivery,High,I got the wrong item instead of the router. Third time I am complaining!! Thank you.
+C01463,Loyal regulars,Consumer,0.111,13025.0,T009987,2026-08-19,Product Quality,Low,"Hi, The stitching on the paper ream came off after one wash. This is really frustrating!!!"
+C00031,Occasional buyers,Consumer,0.168,12269.0,T009835,2026-08-04,Product Quality,High,the headphones is not as described on the website. thank you.
+C01141,Loyal regulars,Consumer,0.079,12127.0,T009920,2026-08-13,Delivery,High,"Hello team, Delivery status shows delivered but I never got the paper ream. Also the product looks used."
+C02321,Occasional buyers,Consumer,0.12,12093.0,T009940,2026-08-14,Delivery,High,Tracking update nahi ho rahi. Bakwas service. Thank you.
+C02513,Loyal regulars,Consumer,0.126,12009.0,T009977,2026-08-18,Product Quality,Low,"Hi support, Is there a warranty on the laptop. Sadly I am not happy with this."
+C00179,Occasional buyers,Consumer,0.151,11856.0,T010253,2026-09-17,Delivery,High,"Hello team, I got the wrong item instead of the jacket."
+C02241,Occasional buyers,Consumer,0.084,11794.0,T010081,2026-08-28,Technical,High,"Hey, The payment page is stuck on loading. Thi is  unacceptable.  Kindly do the needful."
+C01137,Loyal regulars,Consumer,0.162,10887.0,T009803,2026-08-01,Delivery,Low,"Hi, I got the wrong item instead of the stapler. Also the product looks used. Waiting for reply!!!"
+C00459,Loyal regulars,Consumer,0.197,10865.0,T010176,2026-09-08,Delivery,Medium,The courier did not show up on the promised date. I am fed up of following up.
+C02051,Occasional buyers,Consumer,0.203,10757.0,T010210,2026-09-13,Billing,Medium,Paise do baar kat gaye. Bahut bura experience hai. Thank you.
+C01271,Slipping away,SMB,0.257,10665.0,T009901,2026-08-11,Billing,High,"Dear team, How can I update my billing address. Thank you."
+C00732,Loyal regulars,Consumer,0.058,10429.0,T010302,2026-09-24,Billing,Medium,Something is wrong with my jacket order. If not fixed I will cancel my account. Kindly do the needful!!!
+C00260,Slipping away,Consumer,0.331,10404.0,T010154,2026-09-06,Refund,Low,"Namaste, Refund abhi tak nahi aaya. Bahut bura experience hai. Thank you!!!"
+C00205,Loyal regulars,Consumer,0.053,9233.0,T010166,2026-09-07,Product Quality,High,"Hey, Phone website jaisa bilkul nahi hai."
+C01349,Slipping away,Consumer,0.249,8954.0,T009982,2026-08-18,Delivery,High,The package arrived damaged. Thanks!!!
+C01811,Occasional buyers,Consumer,0.066,8628.0,T009947,2026-08-15,Technical,High,"Dear team, How do I reset my password. Pls check asap."
+C02619,Occasional buyers,Consumer,0.226,8622.0,T009913,2026-08-12,Product Quality,High,"Dear team, Is there a warranty on the shoes. Thanks a lot for wasting my week. Waiting for reply."
+C02833,Loyal regulars,Consumer,0.061,7706.0,T010162,2026-09-07,Delivery,High,"hi support, delivery status shows delivered but i never got the office chair. i'm afraid this is still not resolved. thank you."
+C02801,Loyal regulars,Consumer,0.086,7548.0,T009815,2026-08-02,Refund,High,the refund amount is less than what i paid. i am fed up of following up. please help.
+C02400,Occasional buyers,SMB,0.073,6759.0,T010320,2026-09-27,Product Quality,High,"Hey, The colour of the tablet is complletely different. Thank you."
+C00898,Occasional buyers,Consumer,0.124,6462.0,T010218,2026-09-13,Refund,High,My refund for order #961457 has not been received. Waiting for reply.
+C00156,Occasional buyers,Consumer,0.054,6338.0,T010240,2026-09-15,Product Quality,High,Printer ki quality bekar hai. Bakwas service. Kindly do the needful.
+C02686,Occasional buyers,Consumer,0.125,5845.0,T009853,2026-08-06,Delivery,High,delivery status shows delivered but i never got the headphones. this is really frustrating. regards.
+C01893,Loyal regulars,Consumer,0.075,5717.0,T010200,2026-09-11,Billing,High,"Dear team, There is a problem with my last purchase. Noboody is responding to my emails. Waiting for reply."
+C00632,Loyal regulars,Consumer,0.057,5655.0,T010024,2026-08-22,Delivery,High,"Dear team, Can you share the tracking link for my office chair. Waiting for reply."
+C02184,Slipping away,Consumer,0.07,4602.0,T010293,2026-09-23,Product Quality,High,"Hey, The colour of the printer is completely different. Pls check asap."
+C01730,Loyal regulars,Consumer,0.062,4130.0,T009994,2026-08-19,Delivery,High,"Hey, My order #875034 has not been delivered yet. Waiting for reply."
+C00272,Occasional buyers,Consumer,0.069,4053.0,T010321,2026-09-27,Billing,High,Payment ho gaya par order fail ho gaya. Bakwas service. Regards.
+C02875,Occasional buyers,Consumer,0.081,3952.0,T010112,2026-09-01,Technical,High,"Hi support, Payment page atak gaya hai. Ye bilkul acceptable nahi hai."
+C00986,Slipping away,SMB,0.126,2585.0,T009854,2026-08-06,Refund,High,"Dear team, My refund for order #732118 has not been received. Thanks a lot for wasting my week. Please help."
+C02426,Slipping away,Consumer,0.299,2317.0,T010119,2026-09-02,Product Quality,High,"Hi there, Monitor website jaisa bilkul nahi hai. Regards."
+C00752,Slipping away,Consumer,0.053,1517.0,T010314,2026-09-26,Technical,High,I cannot download my order history. Nobody is responding to my emails. Regards.
+C00118,Slipping away,Consumer,0.079,1509.0,T009921,2026-08-13,Product Quality,Medium,"Hello team, What material is the phone made of. Kindly do the needful!!!"
+C00478,Slipping away,Consumer,0.096,1503.0,T010123,2026-09-02,Billing,High,"Hi support, Last order ke baare mein help chahiye. Kitni baar complain karu?"
+C00284,Slipping away,Consumer,0.113,1068.0,T010324,2026-09-27,Product Quality,High,"Hey, The colour of the shoes is completely different. I will never order again. Kindly do the needful."

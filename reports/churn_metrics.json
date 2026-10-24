@@ -1,0 +1,70 @@
+{
+  "label": "churns within 90 days of snapshot",
+  "selected_model": "logistic_regression",
+  "comparison": {
+    "logistic_regression": {
+      "valid": {
+        "roc_auc": 0.882,
+        "pr_auc": 0.503,
+        "churn_rate": 0.037,
+        "mean_predicted_prob": 0.027,
+        "precision_top10pct": 0.239,
+        "recall_top10pct": 0.654,
+        "lift_top10pct": 6.54
+      },
+      "test": {
+        "roc_auc": 0.898,
+        "pr_auc": 0.677,
+        "churn_rate": 0.067,
+        "mean_predicted_prob": 0.043,
+        "precision_top10pct": 0.488,
+        "recall_top10pct": 0.731,
+        "lift_top10pct": 7.33
+      }
+    },
+    "gradient_boosting": {
+      "valid": {
+        "roc_auc": 0.883,
+        "pr_auc": 0.47,
+        "churn_rate": 0.037,
+        "mean_predicted_prob": 0.022,
+        "precision_top10pct": 0.239,
+        "recall_top10pct": 0.654,
+        "lift_top10pct": 6.54
+      },
+      "test": {
+        "roc_auc": 0.886,
+        "pr_auc": 0.633,
+        "churn_rate": 0.067,
+        "mean_predicted_prob": 0.039,
+        "precision_top10pct": 0.442,
+        "recall_top10pct": 0.662,
+        "lift_top10pct": 6.64
+      }
+    }
+  },
+  "test_snapshot": "2026-06-30",
+  "test_metrics_selected": {
+    "roc_auc": 0.901,
+    "pr_auc": 0.679,
+    "churn_rate": 0.067,
+    "mean_predicted_prob": 0.045,
+    "precision_top10pct": 0.484,
+    "recall_top10pct": 0.724,
+    "lift_top10pct": 7.26
+  },
+  "top_drivers_permutation_importance": {
+    "neg_tickets_90d": 0.455,
+    "tickets_90d": 0.0511,
+    "tenure_days": 0.0338,
+    "orders_90d": 0.0251,
+    "orders_prev90d": 0.0113,
+    "plan": 0.0112,
+    "order_trend": 0.008,
+    "revenue_365d": 0.006
+  },
+  "scored_at": "2026-10-01",
+  "customers_scored": 2130,
+  "high_risk_customers": 213,
+  "revenue_at_risk_inr": 8612338.0
+}

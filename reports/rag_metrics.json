@@ -1,0 +1,148 @@
+{
+  "chunks": 42,
+  "questions": 37,
+  "out_of_scope": 6,
+  "retrieval": {
+    "bm25": {
+      "hit1": 0.865,
+      "hit3": 0.973,
+      "mrr": 0.911
+    },
+    "bm25+expand": {
+      "hit1": 0.865,
+      "hit3": 0.973,
+      "mrr": 0.915
+    },
+    "char": {
+      "hit1": 0.892,
+      "hit3": 0.892,
+      "mrr": 0.908
+    },
+    "char+expand": {
+      "hit1": 0.892,
+      "hit3": 0.946,
+      "mrr": 0.919
+    },
+    "hybrid": {
+      "hit1": 0.892,
+      "hit3": 0.973,
+      "mrr": 0.92
+    },
+    "hybrid+expand": {
+      "hit1": 0.892,
+      "hit3": 0.973,
+      "mrr": 0.924
+    },
+    "lsa": {
+      "hit1": 0.865,
+      "hit3": 0.973,
+      "mrr": 0.906
+    },
+    "lsa+expand": {
+      "hit1": 0.892,
+      "hit3": 0.973,
+      "mrr": 0.924
+    },
+    "tfidf": {
+      "hit1": 0.865,
+      "hit3": 0.973,
+      "mrr": 0.911
+    },
+    "tfidf+expand": {
+      "hit1": 0.892,
+      "hit3": 0.973,
+      "mrr": 0.924
+    }
+  },
+  "hit3_by_kind_with_expansion": {
+    "bm25": {
+      "direct": 1.0,
+      "hinglish": 1.0,
+      "paraphrase": 0.8,
+      "report": 1.0
+    },
+    "char": {
+      "direct": 1.0,
+      "hinglish": 1.0,
+      "paraphrase": 0.6,
+      "report": 1.0
+    },
+    "hybrid": {
+      "direct": 1.0,
+      "hinglish": 1.0,
+      "paraphrase": 0.8,
+      "report": 1.0
+    },
+    "lsa": {
+      "direct": 1.0,
+      "hinglish": 1.0,
+      "paraphrase": 0.8,
+      "report": 1.0
+    },
+    "tfidf": {
+      "direct": 1.0,
+      "hinglish": 1.0,
+      "paraphrase": 0.8,
+      "report": 1.0
+    }
+  },
+  "selected": {
+    "method": "tfidf",
+    "query_expansion": true,
+    "abstain_threshold": 3.73,
+    "answer_mode": "section"
+  },
+  "answer_mode_accuracy": {
+    "sentences": 0.757,
+    "section": 0.892
+  },
+  "end_to_end_by_method": {
+    "tfidf": 0.865,
+    "tfidf+expand": 0.892,
+    "bm25": 0.865,
+    "bm25+expand": 0.865,
+    "char": 0.892,
+    "char+expand": 0.892,
+    "lsa": 0.865,
+    "lsa+expand": 0.892,
+    "hybrid": 0.892,
+    "hybrid+expand": 0.892
+  },
+  "answer_accuracy_in_scope": 0.892,
+  "answer_accuracy_by_kind": {
+    "direct": 0.96,
+    "hinglish": 0.75,
+    "out_of_scope": 0.83,
+    "paraphrase": 0.6,
+    "report": 1.0
+  },
+  "wrongly_refused_in_scope": 1,
+  "correctly_refused_out_of_scope": 5,
+  "failures": [
+    {
+      "question": "How long does a refund to a credit card take?",
+      "kind": "direct",
+      "answer": "This policy explains when customers can return products, how refunds are paid, and how long each step takes. It applies to all orders placed on the Kaveri Retail website and app.  [Returns and Refund Policy, 1. Purpose, p.1]"
+    },
+    {
+      "question": "When will I get my money back if I paid with UPI?",
+      "kind": "paraphrase",
+      "answer": "This policy explains when customers can return products, how refunds are paid, and how long each step takes. It applies to all orders placed on the Kaveri Retail website and app.  [Returns and Refund Policy, 1. Purpose, p.1]"
+    },
+    {
+      "question": "My parcel came broken, what is the deadline to tell you?",
+      "kind": "paraphrase",
+      "answer": "I could not find this in the company documents."
+    },
+    {
+      "question": "premium plan ka price kitna hai",
+      "kind": "hinglish",
+      "answer": "Kaveri Retail does not offer price matching with other websites. If the price of an item drops within 7 days of purchase, Premium customers can request the difference as wallet credit.  [Pricing Discounts and Plans, 6. Price Match, p.1]"
+    },
+    {
+      "question": "What is the company share price?",
+      "kind": "out_of_scope",
+      "answer": "Kaveri Retail does not offer price matching with other websites. If the price of an item drops within 7 days of purchase, Premium customers can request the difference as wallet credit.  [Pricing Discounts and Plans, 6. Price Match, p.1]"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# On every push / pull request:
+#   1. test   - install the slim deploy requirements, run the API checks + open every dashboard page
+#   2. docker - build the Docker image, start it, check both apps answer;
+#               on the main branch also publish it to GitHub Packages:
+#               ghcr.io/<your-github-user>/ai-bi-decision-support:latest
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-deploy.txt
+      - run: pip install -r requirements-deploy.txt
+      - name: API checks
+        run: python -m src.api.test_api
+      - name: Dashboard pages
+        run: python tests/smoke_dashboard.py
+
+  docker:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t ai-bi-decision-support:ci .
+      - name: Run both apps and check they answer
+        run: |
+          docker run -d --name dash -p 8501:8501 ai-bi-decision-support:ci
+          docker run -d --name api -p 8000:8000 ai-bi-decision-support:ci uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+          for i in $(seq 1 30); do curl -sf http://localhost:8501/_stcore/health && curl -sf http://localhost:8000/health && break; sleep 3; done
+          curl -sf http://localhost:8000/forecast?region=West
+          docker logs api | tail -5
+      - name: Publish to GitHub Packages (main branch only)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          IMAGE=ghcr.io/$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker tag ai-bi-decision-support:ci $IMAGE:latest
+          docker tag ai-bi-decision-support:ci $IMAGE:${{ github.sha }}
+          docker push $IMAGE:latest
+          docker push $IMAGE:${{ github.sha }}

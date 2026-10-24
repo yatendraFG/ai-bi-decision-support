@@ -1,0 +1,6 @@
+{
+  "method": "tfidf",
+  "query_expansion": true,
+  "min_bm25_score": 3.73,
+  "answer_mode": "section"
+}

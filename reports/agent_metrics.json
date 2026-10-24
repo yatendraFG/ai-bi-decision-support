@@ -1,0 +1,42 @@
+{
+  "questions": 30,
+  "tool_recall": 0.9,
+  "tool_precision": 0.9,
+  "exact_plan": 0.9,
+  "entity_accuracy": 1.0,
+  "exact_plan_english": 0.875,
+  "exact_plan_hinglish": 1.0,
+  "runs_ok": 30,
+  "misses": [
+    {
+      "question": "What revenue do we expect over the coming month?",
+      "required": [
+        "sales_forecast"
+      ],
+      "called": [
+        "search_documents"
+      ],
+      "entities_ok": true
+    },
+    {
+      "question": "Which customers might stop buying from us?",
+      "required": [
+        "churn_risk"
+      ],
+      "called": [
+        "search_documents"
+      ],
+      "entities_ok": true
+    },
+    {
+      "question": "What kinds of customers do we have?",
+      "required": [
+        "customer_segments"
+      ],
+      "called": [
+        "search_documents"
+      ],
+      "entities_ok": true
+    }
+  ]
+}

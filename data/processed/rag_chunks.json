@@ -1,0 +1,254 @@
+[
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Customer Support Standard Operating Procedure Kaveri Retail Pvt. Ltd. (fictional company used for this project) SOP-CS-05, version 5.1, effective 1 July 2026"
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "1. Ticket Priorities and SLAs",
+  "page": 1,
+  "text": "High priority tickets must receive a first response within 2 hours and be resolved within 24 hours. Medium priority: first response within 8 hours, resolution within 3 business days. Low priority: first response within 24 hours, resolution within 5 business days. SLA time counts only business hours, 9 am to 9 pm, Monday to Saturday."
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "2. Automatic Tagging",
+  "page": 1,
+  "text": "Every new ticket is tagged with a category and sentiment by the AI ticket classifier. Tickets where the model confidence is low are marked needs_review and must be checked by a Level 1 agent before routing. Agents should correct wrong tags because corrected tags are used to retrain the model every quarter."
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "3. Escalation Matrix",
+  "page": 1,
+  "text": "Level 1 agents handle all tickets first. Escalate to a Level 2 specialist if the ticket is not resolved within the SLA, if the customer has raised three or more tickets in 30 days, or if the sentiment is negative and the customer is in the High churn-risk band. Escalate to the Support Manager if a refund above Rs 10,000 is requested or if the customer mentions legal action or social media."
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "4. Churn-Risk Call Protocol",
+  "page": 1,
+  "text": "Every morning the urgent call list (high churn-risk customers with a negative ticket in the last 60 days) is shared with the retention team. Each customer must be called within 1 business day. The agent may offer up to a 10 percent discount or 2 months of Premium plan free. Offers above that need Support Manager approval."
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "5. Refund Approval Limits",
+  "page": 1,
+  "text": "Level 1 agents can approve refunds up to Rs 2,000. Level 2 specialists can approve up to Rs 10,000. Refunds above Rs 10,000 need Support Manager approval, and above Rs 50,000 need Finance Head approval."
+ },
+ {
+  "doc": "Customer_Support_SOP",
+  "section": "6. Tone and Language",
+  "page": 1,
+  "text": "Reply in the language the customer used, including Hinglish. Apologise once, explain the next step and give a specific time. Never promise a timeline shorter than the policy timeline."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Pricing, Discounts and Membership Plans Kaveri Retail Pvt. Ltd. (fictional company used for this project) PRC-03, version 4.0, effective 1 April 2026"
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "1. Membership Plans",
+  "page": 1,
+  "text": "Basic plan is free. Standard plan costs Rs 999 per year and gives 2 percent cashback on every order. Premium plan costs Rs 2,499 per year and gives 5 percent cashback, free shipping on every order, two free express deliveries per month and priority support."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "2. Discount Approval Limits",
+  "page": 1,
+  "text": "Sales executives can give up to 5 percent discount on any order. Regional sales managers can approve up to 12 percent. Discounts above 12 percent, and any discount above 20 percent on Electronics, need approval from the Head of Sales. Corporate bulk orders above Rs 5 lakh may receive negotiated pricing approved by the Head of Sales."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "3. Coupons",
+  "page": 1,
+  "text": "Only one coupon can be used per order. Coupons cannot be combined with bank offers unless the coupon says so. Coupons expire 30 days after they are issued unless another date is printed. Coupons cannot be exchanged for cash."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "4. GST Invoices",
+  "page": 1,
+  "text": "A GST invoice is generated automatically for every order and is available in the Orders section within 24 hours of delivery. Business customers must enter their GSTIN before placing the order; a GSTIN cannot be added after the invoice is generated."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "5. EMI Options",
+  "page": 1,
+  "text": "No-cost EMI is available on orders above Rs 10,000 on select credit cards for 3 and 6 months. Standard EMI is available on orders above Rs 3,000 for 3 to 24 months."
+ },
+ {
+  "doc": "Pricing_Discounts_and_Plans",
+  "section": "6. Price Match",
+  "page": 1,
+  "text": "Kaveri Retail does not offer price matching with other websites. If the price of an item drops within 7 days of purchase, Premium customers can request the difference as wallet credit."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Q3 2026 Business Review Kaveri Retail Pvt. Ltd. (fictional company used for this project) BI-Q3-2026, prepared 24 October 2026"
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "1. Summary",
+  "page": 1,
+  "text": "This review covers July to September 2026 and the outlook for October 2026. It is prepared by the Business Intelligence team using the AI decision support system."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "2. Sales Outlook",
+  "page": 1,
+  "text": "Revenue for the next 30 days (2026-10-01 -> 2026-10-30) is forecast at Rs 689.3 lakh, which is +28.1 percent compared with the last 30 days, driven by the festive season. By region: North Rs 233.2 lakh, South Rs 197.4 lakh, West Rs 157.8 lakh, East Rs 100.9 lakh. The forecast model's average monthly error over the last 12 months was 7.9%."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "3. Customer Churn",
+  "page": 1,
+  "text": "The churn model flags 213 customers as High risk, with Rs 86.1 lakh of annual revenue at risk. The strongest warning signs are recent negative support tickets, the number of tickets, short tenure and falling order counts."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "4. Customer Segments",
+  "page": 1,
+  "text": "Customers fall into 5 segments. Champions is the most valuable segment with 491 customers contributing 47.8 percent of revenue. Big-ticket buyers: 285 customers, 32.4 percent of revenue. Occasional buyers: 692 customers, 12.4 percent of revenue. Loyal regulars: 415 customers, 6.6 percent of revenue. Slipping away: 237 customers, 0.8 percent of revenue."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "5. Support Tickets",
+  "page": 1,
+  "text": "The AI classifier routes tickets to the right team with 94% accuracy. Product Quality has the highest rise in negative tickets, from 36% to 39%. 87 high churn-risk customers with recent negative tickets are on the urgent call list, representing Rs 29.2 lakh of revenue at risk."
+ },
+ {
+  "doc": "Q3_2026_Business_Review",
+  "section": "6. Actions for Q4",
+  "page": 1,
+  "text": "Retention team to call every customer on the urgent call list within 1 business day. Operations to review the top complaint themes with courier partners before Diwali. Sales to focus account management on the Big-ticket buyers segment. Support to clear the needs_review queue daily."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Returns and Refund Policy Kaveri Retail Pvt. Ltd. (fictional company used for this project) RET-01, version 3.2, effective 1 April 2026"
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "1. Purpose",
+  "page": 1,
+  "text": "This policy explains when customers can return products, how refunds are paid, and how long each step takes. It applies to all orders placed on the Kaveri Retail website and app."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "2. Return Window by Category",
+  "page": 1,
+  "text": "Electronics can be returned within 7 days of delivery. Clothing can be returned within 15 days of delivery. Furniture can be returned within 10 days of delivery, only if it is unassembled and in original packaging. Office Supplies can be returned within 30 days of delivery. Items marked 'Final Sale' cannot be returned. The return window is counted from the delivery date shown in the tracking history."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "3. Condition of Returned Items",
+  "page": 1,
+  "text": "Products must be unused, with all tags, accessories, manuals and the original box. Electronics must be factory reset and must not have physical damage. If an item fails the quality check at the warehouse, it is sent back to the customer and no refund is issued."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "4. Refund Timelines",
+  "page": 1,
+  "text": "After the returned item passes the quality check, the refund is started within 48 hours. Refunds to the Kaveri Wallet are credited within 24 hours of approval. Refunds to UPI are credited within 2 to 3 business days. Refunds to credit or debit cards take 5 to 7 business days, depending on the bank. Cash on Delivery orders are refunded to the Kaveri Wallet or to a bank account given by the customer."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "5. Partial Refunds",
+  "page": 1,
+  "text": "If only part of an order is returned, only the returned items are refunded. Shipping charges are not refunded unless the item was damaged, defective or wrong. Coupon discounts are adjusted proportionally across items."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "6. Cancellations",
+  "page": 1,
+  "text": "Orders can be cancelled free of charge before they are shipped. After shipping, the customer must refuse the delivery or raise a return. Cancelled prepaid orders are refunded using the same timelines as section 4."
+ },
+ {
+  "doc": "Returns_and_Refund_Policy",
+  "section": "7. Refund Delays and Escalation",
+  "page": 1,
+  "text": "If a refund is not received within 10 business days after approval, the customer should raise a ticket with category Refund. Support must treat such tickets as High priority. A refund delayed beyond 15 business days must be escalated to the Finance Operations team, and the customer receives a goodwill credit of Rs 200 in the wallet."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Shipping and Delivery Policy Kaveri Retail Pvt. Ltd. (fictional company used for this project) SHP-02, version 2.4, effective 1 January 2026"
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "1. Delivery Coverage",
+  "page": 1,
+  "text": "Kaveri Retail delivers to over 19,000 pin codes across India through three courier partners. Remote areas in the North-East and Ladakh may take additional time."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "2. Delivery Timelines",
+  "page": 1,
+  "text": "Metro cities: 2 to 3 business days. Tier-2 cities: 3 to 5 business days. Other areas: 5 to 8 business days. Furniture and large items: 7 to 12 business days because they ship from regional warehouses."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "3. Shipping Charges",
+  "page": 1,
+  "text": "Orders above Rs 499 ship free for all customers. Orders below Rs 499 have a shipping charge of Rs 49. Customers on the Premium plan get free shipping on every order with no minimum value. Express delivery (next day in metro cities) costs Rs 99 and is free for Premium customers twice per month."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "4. Late Deliveries",
+  "page": 1,
+  "text": "If an order is not delivered within 3 days after the promised date, the customer can request a full refund of the shipping charge. If an order is more than 7 days late, support may offer a 5 percent discount coupon on the next order. The courier partner is penalised under the partner agreement."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "5. Damaged or Missing Items",
+  "page": 1,
+  "text": "Damage in transit must be reported within 48 hours of delivery with photos of the package and the product. Missing items must be reported within 72 hours. Kaveri Retail will send a free replacement or a full refund, as the customer prefers."
+ },
+ {
+  "doc": "Shipping_and_Delivery_Policy",
+  "section": "6. Address Changes",
+  "page": 1,
+  "text": "The delivery address can be changed only before the order is shipped. After shipping, the customer must contact support, and a change is possible only within the same city."
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "Introduction",
+  "page": 1,
+  "text": "Warranty Policy Kaveri Retail Pvt. Ltd. (fictional company used for this project) WAR-01, version 1.9, effective 1 April 2026"
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "1. Warranty Periods",
+  "page": 1,
+  "text": "Electronics carry a 1 year manufacturer warranty from the date of delivery. Furniture carries a 6 month warranty against manufacturing defects. Office Supplies carry a 3 month warranty on mechanical items such as staplers and printers' accessories. Clothing is not covered by warranty but can be returned under the Returns Policy."
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "2. Extended Warranty",
+  "page": 1,
+  "text": "Customers can buy Kaveri Care extended warranty for electronics within 30 days of delivery. It adds 1 or 2 extra years and costs 8 percent of the product price per extra year. Premium plan customers get a 10 percent discount on Kaveri Care."
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "3. What Is Not Covered",
+  "page": 1,
+  "text": "Physical damage, water damage, damage from incorrect voltage, normal wear and tear, cosmetic scratches that do not affect function, and products repaired by unauthorised service centres are not covered."
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "4. How to Claim",
+  "page": 1,
+  "text": "Raise a ticket with category Product Quality, attach the invoice and photos or a short video of the defect. A technician visit or pickup is scheduled within 3 business days. Repairs are completed within 10 business days; if a product cannot be repaired, it is replaced, and if a replacement is not available, a full refund is issued."
+ },
+ {
+  "doc": "Warranty_Policy",
+  "section": "5. Repeated Defects",
+  "page": 1,
+  "text": "If the same defect occurs three times within the warranty period, the product is replaced with a new unit without further inspection."
+ }
+]
