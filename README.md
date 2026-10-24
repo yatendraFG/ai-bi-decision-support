@@ -1,5 +1,7 @@
 # AI Business Intelligence & Decision Support System
 
+[![CI](https://github.com/yatendraFG/ai-bi-decision-support/actions/workflows/ci.yml/badge.svg)](https://github.com/yatendraFG/ai-bi-decision-support/actions/workflows/ci.yml)
+
 Company ke sales, customers, support tickets aur documents analyze karke actionable
 recommendations dene wala AI platform.
 
@@ -115,9 +117,16 @@ dobara chalaiye.
 Har push par GitHub Actions (`.github/workflows/ci.yml`):
 1. API ke 15 checks + dashboard ke 6 pages test karta hai
 2. Docker image banata hai, chala kar check karta hai
-3. `main` branch par image GitHub Packages mein publish: `ghcr.io/<user>/ai-bi-decision-support:latest`
+3. `main` branch par image GitHub Packages mein publish: `ghcr.io/yatendrafg/ai-bi-decision-support:latest`
 
-Kisi bhi machine par (Docker ho toh): `docker run -p 8080:8501 ghcr.io/<user>/ai-bi-decision-support:latest`
+Kisi bhi machine par (Docker ho toh):
+
+```bash
+docker run -p 8080:8501 ghcr.io/yatendrafg/ai-bi-decision-support:latest                       # dashboard
+docker run -p 8000:8000 ghcr.io/yatendrafg/ai-bi-decision-support:latest uvicorn src.api.main:app --host 0.0.0.0 --port 8000   # API
+```
+
+(Package pehli baar private banta hai: GitHub -> Packages -> ai-bi-decision-support -> Package settings -> Change visibility -> Public.)
 
 ## Apna real data use karna
 
